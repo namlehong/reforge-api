@@ -1,0 +1,38 @@
+[
+  {
+    "model": "poe.league",
+    "pk": 1,
+    "fields": {
+      "name": "Standard",
+      "code": "Standard",
+      "is_active": true
+    }
+  },
+  {
+    "model": "poe.league",
+    "pk": 2,
+    "fields": {
+      "name": "Hardcore",
+      "code": "Hardcore",
+      "is_active": true
+    }
+  },
+  {
+    "model": "poe.league",
+    "pk": 3,
+    "fields": {
+      "name": "Ritual",
+      "code": "Ritual",
+      "is_active": true
+    }
+  },
+  {
+    "model": "poe.league",
+    "pk": 4,
+    "fields": {
+      "name": "HC Ritual",
+      "code": "Hardcore Ritual",
+      "is_active": true
+    }
+  }
+]

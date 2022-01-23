@@ -1,0 +1,166 @@
+version: v1beta9
+images:
+  app:
+    image: namlehong/reforge-api
+    injectRestartHelper: true
+    appendDockerfileInstructions:
+    - USER root
+    rebuildStrategy: ignoreContextChanges
+
+
+deployments:
+- name: site
+  helm:
+    componentChart: true
+    values:
+      labels:
+        devspace_logs: false
+        deploy_as: full
+      containers:
+      - image: namlehong/reforge-api
+        command:
+          - python
+        args:
+          - manage.py
+          - runserver
+          - 0.0.0.0:8000
+        envFrom:
+          - configMapRef:
+              name: django-config
+          - secretRef:
+              name: django-secret
+        env:
+          - name: DJANGO_SETTINGS_MODULE
+            value: reforge.settings.prod
+      service:
+        ports:
+        - port: 8000
+
+- name: static
+  helm:
+    chart:
+      name: nginx
+      repo: https://charts.bitnami.com/bitnami
+    values:
+      service:
+        type: ClusterIP
+      resources:
+        limits:
+          cpu: "100m"
+          memory: "128M"
+
+      livenessProbe:
+        enabled: false
+      readinessProbe:
+        enabled: false
+      serverBlock: |-
+        port_in_redirect off;
+      initContainers:
+        - image: namlehong/reforge-api
+          name: init-static
+          command: [ 'python' ]
+          args: [ 'manage.py', 'collectstatic', '--noinput' ]
+          volumeMounts:
+            - mountPath: /usr/src/app/static
+              name: html-data
+              readOnly: false
+
+      extraVolumes:
+        - name: html-data
+          emptyDir: {}
+
+      extraVolumeMounts:
+        - mountPath: /app/static
+          name: html-data
+          readOnly: true
+
+
+
+dev:
+#  ports:
+#  - imageName: app
+#    forward:
+#    - port: 8000
+#  open:
+#  - url: http://localhost:8000
+  logs:
+#    disabled: enable
+    selectors:
+    - labelSelector:
+        deploy_as: full
+#    - labelSelector:
+#        role: worker
+  sync:
+  - labelSelector:
+      deploy_as: full
+    excludePaths:
+    - .git/
+    - __pycache__/
+    - '*.log'
+    - '*.tar.gz'
+    downloadExcludePaths:
+    - '**'
+    uploadExcludePaths:
+    - .venv
+    - venv/
+    - ENV/
+    - __pycache__/
+    - '*.py[cod]'
+    - '*$py.class'
+    - .Python
+    - env/
+    - build/
+    - develop-eggs/
+    - dist/
+    - downloads/
+    - eggs/
+    - .eggs/
+    - lib/
+    - lib64/
+    - parts/
+    - sdist/
+    - var/
+    - wheels/
+    - '*.egg-info/'
+    - .installed.cfg
+    - '*.egg'
+    - '*.log'
+    - .DS_Store/
+    - .idea/
+    - docker-compose.yml
+    - celerybeat-schedule
+    - requirements.txt.py
+    - stack.yml
+    - traefik.yml
+#    - static/
+#    - statics/
+    - Dockerfile
+    - .dockerignore
+    - warn.log
+    - devspace.yaml
+    onUpload:
+      restartContainer: true
+profiles:
+- name: dev
+  patches:
+  - op: remove
+    path: deployments.name=static
+- name: production
+  patches:
+  - op: remove
+    path: images.app.appendDockerfileInstructions
+  - op: remove
+    path: images.app.injectRestartHelper
+  - op: remove
+    path: images.app.rebuildStrategy
+- name: interactive
+  patches:
+  - op: add
+    path: dev.interactive
+    value:
+      defaultEnabled: true
+  - op: add
+    path: images.app.entrypoint
+    value:
+    - sleep
+    - "9999999999"

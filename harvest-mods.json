@@ -1,0 +1,2692 @@
+[
+  {
+    "mod": "Add a random Influence to Normal, Magic or Rare Armour that isn't influenced",
+    "keywords": [
+      "influence",
+      "armour"
+    ],
+    "shortName": "influence armour that isn't influenced",
+    "category": "special",
+    "slug": "influence-armour-that-isn't-influenced"
+  },
+  {
+    "mod": "Add a random Influence to Normal, Magic or Rare Jewellery that isn't influenced",
+    "keywords": [
+      "influence",
+      "jewellery"
+    ],
+    "shortName": "influence jewellery that isn't influenced",
+    "category": "special",
+    "slug": "influence-jewellery-that-isn't-influenced"
+  },
+  {
+    "mod": "Add a random Influence to a Normal, Magic or Rare Weapon that isn't influenced",
+    "keywords": [
+      "influence",
+      "weapon"
+    ],
+    "shortName": "influence weapon that isn't influenced",
+    "category": "special",
+    "slug": "influence-weapon-that-isn't-influenced"
+  },
+  {
+    "mod": "Attempt to Awaken a level 20 Support Gem that can be Awakened with a 5% chance. If it does not Awaken, it is destroyed.",
+    "keywords": [
+      "awaken",
+      "level 20 support gem"
+    ],
+    "shortName": "awaken level 20 support gem (5% chance)",
+    "category": "special",
+    "slug": "awaken-level-20-support-gem-(5percent-chance)"
+  },
+  {
+    "mod": "Attempt to upgrade a Scarab, with a chance for it to become Winged",
+    "keywords": [
+      "upgrade",
+      "scarab"
+    ],
+    "shortName": "upgrade scarab",
+    "category": "upgrade",
+    "slug": "upgrade-scarab"
+  },
+  {
+    "mod": "Improves the Quality of a Flask by at least 10%. Has greater effect on lower rarity flasks. The maximum quality is 20%",
+    "keywords": [
+      "quality",
+      "flask"
+    ],
+    "shortName": "quality flask +10% (max 20%)",
+    "category": "quality",
+    "slug": "quality-flask-+10percent-(max-20percent)"
+  },
+  {
+    "mod": "Improves the Quality of a Gem by at least 10%. The maximum quality is 20%",
+    "keywords": [
+      "quality",
+      "gem"
+    ],
+    "shortName": "quality gem +10% (max 20%)",
+    "category": "quality",
+    "slug": "quality-gem-+10percent-(max-20percent)"
+  },
+  {
+    "mod": "Set a new Implicit modifier on a Cluster Jewel",
+    "keywords": [
+      "implicit",
+      "cluster jewel"
+    ],
+    "shortName": "implicit on cluster jewel",
+    "category": "implicit",
+    "slug": "implicit-on-cluster-jewel"
+  },
+  {
+    "mod": "Set a new Implicit modifier on a Cobalt, Crimson, Viridian or Prismatic Jewel",
+    "keywords": [
+      "implicit",
+      "cobalt, crimson, viridian",
+      "prismatic jewel"
+    ],
+    "shortName": "implicit on cobalt, crimson, viridian or prismatic jewel",
+    "category": "implicit",
+    "slug": "implicit-on-cobalt-crimson-viridian-or-prismatic-jewel"
+  },
+  {
+    "mod": "Set a new Implicit modifier on an Abyss Jewel or Timeless Jewel",
+    "keywords": [
+      "implicit",
+      "abyss jewel",
+      "timeless jewel"
+    ],
+    "shortName": "implicit on abyss jewel or timeless jewel",
+    "category": "implicit",
+    "slug": "implicit-on-abyss-jewel-or-timeless-jewel"
+  },
+  {
+    "mod": "Set an item to five sockets",
+    "keywords": [
+      "five sockets"
+    ],
+    "shortName": "Set an item to {five sockets}",
+    "category": "special",
+    "slug": "set-an-item-to-five-sockets"
+  },
+  {
+    "mod": "Set an item to six sockets",
+    "keywords": [
+      "six sockets"
+    ],
+    "shortName": "Set an item to {six sockets}",
+    "category": "special",
+    "slug": "set-an-item-to-six-sockets"
+  },
+  {
+    "mod": "Augment a Magic or Rare item with a new Caster modifier",
+    "keywords": [
+      "augment",
+      "caster"
+    ],
+    "shortName": "augment caster",
+    "category": "augment",
+    "slug": "augment-caster"
+  },
+  {
+    "mod": "Augment a Magic or Rare item with a new Caster modifier with Lucky values",
+    "keywords": [
+      "augment",
+      "caster",
+      "lucky"
+    ],
+    "shortName": "augment caster lucky",
+    "category": "augment-lucky",
+    "slug": "augment-caster-lucky"
+  },
+  {
+    "mod": "Augment a Magic or Rare item with a new Fire modifier",
+    "keywords": [
+      "augment",
+      "fire"
+    ],
+    "shortName": "augment fire",
+    "category": "augment",
+    "slug": "augment-fire"
+  },
+  {
+    "mod": "Augment a Magic or Rare item with a new Fire modifier with Lucky values",
+    "keywords": [
+      "augment",
+      "fire",
+      "lucky"
+    ],
+    "shortName": "augment fire lucky",
+    "category": "augment-lucky",
+    "slug": "augment-fire-lucky"
+  },
+  {
+    "mod": "Augment a Magic or Rare item with a new Physical modifier",
+    "keywords": [
+      "augment",
+      "physical"
+    ],
+    "shortName": "augment physical",
+    "category": "augment",
+    "slug": "augment-physical"
+  },
+  {
+    "mod": "Augment a Magic or Rare item with a new Physical modifier with Lucky values",
+    "keywords": [
+      "augment",
+      "physical",
+      "lucky"
+    ],
+    "shortName": "augment physical lucky",
+    "category": "augment-lucky",
+    "slug": "augment-physical-lucky"
+  },
+  {
+    "mod": "Augment a Rare item with a new modifier, with Lucky modifier values",
+    "keywords": [
+      "augment",
+      "lucky"
+    ],
+    "shortName": "augment new mod",
+    "category": "augment-lucky",
+    "slug": "augment-new-mod"
+  },
+  {
+    "mod": "Augment an item with a new Attack modifier",
+    "keywords": [
+      "augment",
+      "attack"
+    ],
+    "shortName": "augment attack",
+    "category": "augment",
+    "slug": "augment-attack"
+  },
+  {
+    "mod": "Augment an item with a new Attack modifier with Lucky values",
+    "keywords": [
+      "augment",
+      "attack",
+      "lucky"
+    ],
+    "shortName": "augment attack lucky",
+    "category": "augment-lucky",
+    "slug": "augment-attack-lucky"
+  },
+  {
+    "mod": "Augment an item with a new Chaos modifier",
+    "keywords": [
+      "augment",
+      "chaos"
+    ],
+    "shortName": "augment chaos",
+    "category": "augment",
+    "slug": "augment-chaos"
+  },
+  {
+    "mod": "Augment an item with a new Chaos modifier with Lucky values",
+    "keywords": [
+      "augment",
+      "chaos",
+      "lucky"
+    ],
+    "shortName": "augment chaos lucky",
+    "category": "augment-lucky",
+    "slug": "augment-chaos-lucky"
+  },
+  {
+    "mod": "Augment an item with a new Cold modifier",
+    "keywords": [
+      "augment",
+      "cold"
+    ],
+    "shortName": "augment cold",
+    "category": "augment",
+    "slug": "augment-cold"
+  },
+  {
+    "mod": "Augment an item with a new Cold modifier with Lucky values",
+    "keywords": [
+      "augment",
+      "cold",
+      "lucky"
+    ],
+    "shortName": "augment cold lucky",
+    "category": "augment-lucky",
+    "slug": "augment-cold-lucky"
+  },
+  {
+    "mod": "Augment an item with a new Critical modifier",
+    "keywords": [
+      "augment",
+      "critical"
+    ],
+    "shortName": "augment critical",
+    "category": "augment",
+    "slug": "augment-critical"
+  },
+  {
+    "mod": "Augment an item with a new Critical modifier with lucky values",
+    "keywords": [
+      "augment",
+      "critical",
+      "lucky"
+    ],
+    "shortName": "augment critical lucky",
+    "category": "augment-lucky",
+    "slug": "augment-critical-lucky"
+  },
+  {
+    "mod": "Augment an item with a new Defence modifier",
+    "keywords": [
+      "augment",
+      "defence"
+    ],
+    "shortName": "augment defence",
+    "category": "augment",
+    "slug": "augment-defence"
+  },
+  {
+    "mod": "Augment an item with a new Defence modifier with Lucky values",
+    "keywords": [
+      "augment",
+      "defence",
+      "lucky"
+    ],
+    "shortName": "augment defence lucky",
+    "category": "augment-lucky",
+    "slug": "augment-defence-lucky"
+  },
+  {
+    "mod": "Augment an item with a new Influence modifier",
+    "keywords": [
+      "augment",
+      "influence"
+    ],
+    "shortName": "augment influence",
+    "category": "augment",
+    "slug": "augment-influence"
+  },
+  {
+    "mod": "Augment an item with a new Influence modifier with Lucky values",
+    "keywords": [
+      "augment",
+      "influence",
+      "lucky"
+    ],
+    "shortName": "augment influence lucky",
+    "category": "augment-lucky",
+    "slug": "augment-influence-lucky"
+  },
+  {
+    "mod": "Augment an item with a new Life modifier",
+    "keywords": [
+      "augment",
+      "life"
+    ],
+    "shortName": "augment life",
+    "category": "augment",
+    "slug": "augment-life"
+  },
+  {
+    "mod": "Augment an item with a new Life modifier with Lucky values",
+    "keywords": [
+      "augment",
+      "life",
+      "lucky"
+    ],
+    "shortName": "augment life lucky",
+    "category": "augment-lucky",
+    "slug": "augment-life-lucky"
+  },
+  {
+    "mod": "Augment an item with a new Lightning modifier",
+    "keywords": [
+      "augment",
+      "lightning"
+    ],
+    "shortName": "augment lightning",
+    "category": "augment",
+    "slug": "augment-lightning"
+  },
+  {
+    "mod": "Augment an item with a new Lightning modifier with Lucky values",
+    "keywords": [
+      "augment",
+      "lightning",
+      "lucky"
+    ],
+    "shortName": "augment lightning lucky",
+    "category": "augment-lucky",
+    "slug": "augment-lightning-lucky"
+  },
+  {
+    "mod": "Augment an item with a new Speed modifier",
+    "keywords": [
+      "augment",
+      "speed"
+    ],
+    "shortName": "augment speed",
+    "category": "augment",
+    "slug": "augment-speed"
+  },
+  {
+    "mod": "Augment an item with a new Speed modifier with Lucky values",
+    "keywords": [
+      "augment",
+      "speed",
+      "lucky"
+    ],
+    "shortName": "augment speed lucky",
+    "category": "augment-lucky",
+    "slug": "augment-speed-lucky"
+  },
+  {
+    "mod": "Change a modifier that grants Cold Resistance into a similar-tier modifier that grants Fire Resistance",
+    "keywords": [
+      "change",
+      "cold",
+      "fire"
+    ],
+    "shortName": "change cold-res to fire",
+    "category": "change",
+    "slug": "change-cold-res-to-fire"
+  },
+  {
+    "mod": "Change a modifier that grants Cold Resistance into a similar-tier modifier that grants Lightning Resistance",
+    "keywords": [
+      "change",
+      "cold",
+      "lightning"
+    ],
+    "shortName": "change cold-res to lightning",
+    "category": "change",
+    "slug": "change-cold-res-to-lightning"
+  },
+  {
+    "mod": "Change a modifier that grants Fire Resistance into a similar-tier modifier that grants Cold Resistance",
+    "keywords": [
+      "change",
+      "fire",
+      "cold"
+    ],
+    "shortName": "change fire-res to cold",
+    "category": "change",
+    "slug": "change-fire-res-to-cold"
+  },
+  {
+    "mod": "Change a modifier that grants Fire Resistance into a similar-tier modifier that grants Lightning Resistance",
+    "keywords": [
+      "change",
+      "fire",
+      "lightning"
+    ],
+    "shortName": "change fire-res to lightning",
+    "category": "change",
+    "slug": "change-fire-res-to-lightning"
+  },
+  {
+    "mod": "Change a modifier that grants Lightning Resistance into a similar-tier modifier that grants Cold Resistance",
+    "keywords": [
+      "change",
+      "lightning",
+      "cold"
+    ],
+    "shortName": "change lightning-res to cold",
+    "category": "change",
+    "slug": "change-lightning-res-to-cold"
+  },
+  {
+    "mod": "Change a modifier that grants Lightning Resistance into a similar-tier modifier that grants Fire Resistance",
+    "keywords": [
+      "change",
+      "lightning",
+      "fire"
+    ],
+    "shortName": "change lightning-res to fire",
+    "category": "change",
+    "slug": "change-lightning-res-to-fire"
+  },
+  {
+    "mod": "Change a stack of Breach Splinters or a Breachstone into Splinters or a Breachstone of another type",
+    "keywords": [
+      "change",
+      "breach splinters",
+      "breachstone"
+    ],
+    "shortName": "change breach splinters breachstone",
+    "category": "change-special",
+    "slug": "change-breach-splinters-breachstone"
+  },
+  {
+    "mod": "Change a stack of Catalysts into a different type of Catalyst",
+    "keywords": [
+      "change",
+      "catalysts"
+    ],
+    "shortName": "change catalysts",
+    "category": "change-special",
+    "slug": "change-catalysts"
+  },
+  {
+    "mod": "Change a stack of Delirium Orbs into a different type of Delirium Orb",
+    "keywords": [
+      "change",
+      "delirium orbs"
+    ],
+    "shortName": "change delirium orbs",
+    "category": "change-special",
+    "slug": "change-delirium-orbs"
+  },
+  {
+    "mod": "Change a stack of Essences into a different type of the same tier",
+    "keywords": [
+      "change",
+      "essences"
+    ],
+    "shortName": "change essences",
+    "category": "change-special",
+    "slug": "change-essences"
+  },
+  {
+    "mod": "Change a stack of Fossils into a different type of Fossil",
+    "keywords": [
+      "change",
+      "fossils"
+    ],
+    "shortName": "change fossils",
+    "category": "change-special",
+    "slug": "change-fossils"
+  },
+  {
+    "mod": "Change a stack of Oils into a different colour of Oil",
+    "keywords": [
+      "change",
+      "oils"
+    ],
+    "shortName": "change oils",
+    "category": "change-special",
+    "slug": "change-oils"
+  },
+  {
+    "mod": "Change a stack of Timeless Splinters or a Timeless Emblem into Splinters or an Emblem of another type",
+    "keywords": [
+      "change",
+      "timeless splinters",
+      "timeless emblem"
+    ],
+    "shortName": "change timeless splinters timeless emblem",
+    "category": "change-special",
+    "slug": "change-timeless-splinters-timeless-emblem"
+  },
+  {
+    "mod": "Change a Divination Card into another random Divination Card",
+    "keywords": [
+      "change",
+      "divination card"
+    ],
+    "shortName": "change divination card",
+    "category": "change-special",
+    "slug": "change-divination-card"
+  },
+  {
+    "mod": "Change a Gem into another Gem, carrying over experience and quality if possible",
+    "keywords": [
+      "change",
+      "gem"
+    ],
+    "shortName": "change gem",
+    "category": "change-special",
+    "slug": "change-gem"
+  },
+  {
+    "mod": "Change a Harbinger Unique or Unique Piece into a random Beachhead Map",
+    "keywords": [
+      "change",
+      "harbinger unique",
+      "unique piece"
+    ],
+    "shortName": "{Change} a {Harbinger Unique} or {Unique Piece} into a random Beachhead Map",
+    "category": "change-special",
+    "slug": "change-a-harbinger-unique-or-unique-piece-into-a-random-beachhead-map"
+  },
+  {
+    "mod": "Change a Map into another of the same tier, prioritising Maps that you have not yet completed",
+    "keywords": [
+      "change",
+      "map"
+    ],
+    "shortName": "{Change} a {Map} into another of the same tier, prioritising Maps that you have not yet completed",
+    "category": "change-special",
+    "slug": "change-a-map-into-another-of-the-same-tier-prioritising-maps-that-you-have-not-yet-completed"
+  },
+  {
+    "mod": "Change a Pale Court Key into another random Pale Court Key",
+    "keywords": [
+      "change",
+      "pale court key"
+    ],
+    "shortName": "{Change} a {Pale Court Key} into another random Pale Court Key",
+    "category": "change-special",
+    "slug": "change-a-pale-court-key-into-another-random-pale-court-key"
+  },
+  {
+    "mod": "Change a Sacrifice or Mortal Fragment into another random Fragment of that type",
+    "keywords": [
+      "change",
+      "sacrifice",
+      "mortal fragment"
+    ],
+    "shortName": "{Change} a {Sacrifice} or {Mortal Fragment} into another random Fragment of that type",
+    "category": "change-special",
+    "slug": "change-a-sacrifice-or-mortal-fragment-into-another-random-fragment-of-that-type"
+  },
+  {
+    "mod": "Change a Scarab to another Scarab of the same rarity",
+    "keywords": [
+      "change",
+      "scarab"
+    ],
+    "shortName": "change scarab",
+    "category": "change-special",
+    "slug": "change-scarab"
+  },
+  {
+    "mod": "Change a Shaper Fragment into another random Shaper Fragment",
+    "keywords": [
+      "change",
+      "shaper fragment"
+    ],
+    "shortName": "change shaper fragment",
+    "category": "change-special",
+    "slug": "change-shaper-fragment"
+  },
+  {
+    "mod": "Change a Unique Armour into another Unique Armour of that type",
+    "keywords": [
+      "change",
+      "unique armour"
+    ],
+    "shortName": "change unique armour",
+    "category": "change-special",
+    "slug": "change-unique-armour"
+  },
+  {
+    "mod": "Change a Unique Bestiary item or item with an Aspect into Lures of the same beast family",
+    "keywords": [
+      "change",
+      "unique bestiary"
+    ],
+    "shortName": "change unique bestiary",
+    "category": "change-special",
+    "slug": "change-unique-bestiary"
+  },
+  {
+    "mod": "Change a Unique Item into Perandus Coins. Rarer Unique Items are worth more Perandus Coins",
+    "keywords": [
+      "change",
+      "unique item"
+    ],
+    "shortName": "change unique item",
+    "category": "change-special",
+    "slug": "change-unique-item"
+  },
+  {
+    "mod": "Change a Unique Jewel into another Unique Jewel",
+    "keywords": [
+      "change",
+      "unique jewel"
+    ],
+    "shortName": "change unique jewel",
+    "category": "change-special",
+    "slug": "change-unique-jewel"
+  },
+  {
+    "mod": "Change a Unique Ring, Amulet or Belt into another Unique item of that type",
+    "keywords": [
+      "change",
+      "unique ring, amulet",
+      "belt"
+    ],
+    "shortName": "change unique ring, amulet belt",
+    "category": "change-special",
+    "slug": "change-unique-ring-amulet-belt"
+  },
+  {
+    "mod": "Change a Unique Weapon into another Unique Weapon of that weapon type",
+    "keywords": [
+      "change",
+      "unique weapon"
+    ],
+    "shortName": "change unique weapon",
+    "category": "change-special",
+    "slug": "change-unique-weapon"
+  },
+  {
+    "mod": "Change a Unique into a random Unique Ring, Amulet or Belt",
+    "keywords": [
+      "change",
+      "unique"
+    ],
+    "shortName": "{Change} a {Unique} into a random Unique Ring, Amulet or Belt",
+    "category": "change-special",
+    "slug": "change-a-unique-into-a-random-unique-ring-amulet-or-belt"
+  },
+  {
+    "mod": "Change a Unique item into another random Unique item",
+    "keywords": [
+      "change",
+      "unique"
+    ],
+    "shortName": "{Change} a {Unique} item into another random Unique item",
+    "category": "change-special",
+    "slug": "change-a-unique-item-into-another-random-unique-item"
+  },
+  {
+    "mod": "Change an Elder Fragment into another random Elder Fragment of that type",
+    "keywords": [
+      "change",
+      "elder fragment"
+    ],
+    "shortName": "{Change} an {Elder Fragment} into another random Elder Fragment of that type",
+    "category": "change-special",
+    "slug": "change-an-elder-fragment-into-another-random-elder-fragment-of-that-type"
+  },
+  {
+    "mod": "Change an Offering to the Goddess into a Dedication to the Goddess",
+    "keywords": [
+      "change",
+      "offering to the goddess"
+    ],
+    "shortName": "{Change} an {Offering to the Goddess} into a Dedication to the Goddess",
+    "category": "change-special",
+    "slug": "change-an-offering-to-the-goddess-into-a-dedication-to-the-goddess"
+  },
+  {
+    "mod": "Change an Offering to the Goddess into a Gift to the Goddess",
+    "keywords": [
+      "change",
+      "offering to the goddess"
+    ],
+    "shortName": "{Change} an {Offering to the Goddess} into a Gift to the Goddess",
+    "category": "change-special",
+    "slug": "change-an-offering-to-the-goddess-into-a-gift-to-the-goddess"
+  },
+  {
+    "mod": "Change an Offering to the Goddess into a Tribute to the Goddess",
+    "keywords": [
+      "change",
+      "offering to the goddess"
+    ],
+    "shortName": "{Change} an {Offering to the Goddess} into a Tribute to the Goddess",
+    "category": "change-special",
+    "slug": "change-an-offering-to-the-goddess-into-a-tribute-to-the-goddess"
+  },
+  {
+    "mod": "Enchant Body Armour. Quality does not increase its Defences, grants +1 Dexterity per 2% quality",
+    "keywords": [
+      "enchant body armour"
+    ],
+    "shortName": "enchant body armour +1 Dexterity",
+    "category": "enchant body armour",
+    "slug": "enchant-body-armour-+1-dexterity"
+  },
+  {
+    "mod": "Enchant Body Armour. Quality does not increase its Defences, grants +1 Intelligence per 2% quality",
+    "keywords": [
+      "enchant body armour"
+    ],
+    "shortName": "enchant body armour +1 Intelligence",
+    "category": "enchant body armour",
+    "slug": "enchant-body-armour-+1-intelligence"
+  },
+  {
+    "mod": "Enchant Body Armour. Quality does not increase its Defences, grants +1 Maximum Life per 2% quality",
+    "keywords": [
+      "enchant body armour"
+    ],
+    "shortName": "enchant body armour +1 Maximum Life",
+    "category": "enchant body armour",
+    "slug": "enchant-body-armour-+1-maximum-life"
+  },
+  {
+    "mod": "Enchant Body Armour. Quality does not increase its Defences, grants +1 Maximum Mana per 2% quality",
+    "keywords": [
+      "enchant body armour"
+    ],
+    "shortName": "enchant body armour +1 Maximum Mana",
+    "category": "enchant body armour",
+    "slug": "enchant-body-armour-+1-maximum-mana"
+  },
+  {
+    "mod": "Enchant Body Armour. Quality does not increase its Defences, grants +1 Strength per 2% quality",
+    "keywords": [
+      "enchant body armour"
+    ],
+    "shortName": "enchant body armour +1 Strength",
+    "category": "enchant body armour",
+    "slug": "enchant-body-armour-+1-strength"
+  },
+  {
+    "mod": "Enchant Body Armour. Quality does not increase its Defences, grants 1% Cold Resistance per 2% quality",
+    "keywords": [
+      "enchant body armour"
+    ],
+    "shortName": "enchant body armour 1% Cold Resistance",
+    "category": "enchant body armour",
+    "slug": "enchant-body-armour-1percent-cold-resistance"
+  },
+  {
+    "mod": "Enchant Body Armour. Quality does not increase its Defences, grants 1% Fire Resistance per 2% quality",
+    "keywords": [
+      "enchant body armour"
+    ],
+    "shortName": "enchant body armour 1% Fire Resistance",
+    "category": "enchant body armour",
+    "slug": "enchant-body-armour-1percent-fire-resistance"
+  },
+  {
+    "mod": "Enchant Body Armour. Quality does not increase its Defences, grants 1% Lightning Resistance per 2% quality",
+    "keywords": [
+      "enchant body armour"
+    ],
+    "shortName": "enchant body armour 1% Lightning Resistance",
+    "category": "enchant body armour",
+    "slug": "enchant-body-armour-1percent-lightning-resistance"
+  },
+  {
+    "mod": "Enchant a non-Unique Map with \"Has an additional modifier from Zana's crafting bench at random\"",
+    "keywords": [
+      "enchant",
+      "map"
+    ],
+    "shortName": "{Enchant} a non-Unique {Map} with \"Has an additional modifier from Zana's crafting bench at random\"",
+    "category": "enchant",
+    "slug": "enchant-a-non-unique-map-with-\"has-an-additional-modifier-from-zana's-crafting-bench-at-random\""
+  },
+  {
+    "mod": "Enchant a non-Unique Map with \"Map boss is surrounded by Tormented Spirits\"",
+    "keywords": [
+      "enchant",
+      "map"
+    ],
+    "shortName": "{Enchant} a non-Unique {Map} with \"Map boss is surrounded by Tormented Spirits\"",
+    "category": "enchant",
+    "slug": "enchant-a-non-unique-map-with-\"map-boss-is-surrounded-by-tormented-spirits\""
+  },
+  {
+    "mod": "Enchant a non-Unique Map with \"Map doesn't consume Sextant charges\"",
+    "keywords": [
+      "enchant",
+      "map"
+    ],
+    "shortName": "{Enchant} a non-Unique {Map} with \"Map doesn't consume Sextant charges\"",
+    "category": "enchant",
+    "slug": "enchant-a-non-unique-map-with-\"map-doesn't-consume-sextant-charges\""
+  },
+  {
+    "mod": "Enchant a non-Unique Map with \"Map has a Vaal Side Area\"",
+    "keywords": [
+      "enchant",
+      "map"
+    ],
+    "shortName": "{Enchant} a non-Unique {Map} with \"Map has a Vaal Side Area\"",
+    "category": "enchant",
+    "slug": "enchant-a-non-unique-map-with-\"map-has-a-vaal-side-area\""
+  },
+  {
+    "mod": "Enchant a Flask with a modifier that increases its Duration. The magnitude of this effect decreases with each use",
+    "keywords": [
+      "enchant",
+      "flask"
+    ],
+    "shortName": "enchant flask increases its Duration.",
+    "category": "enchant",
+    "slug": "enchant-flask-increases-its-duration."
+  },
+  {
+    "mod": "Enchant a Flask with a modifier that increases its Effect. The magnitude of this effect decreases with each use",
+    "keywords": [
+      "enchant",
+      "flask"
+    ],
+    "shortName": "enchant flask increases its Effect.",
+    "category": "enchant",
+    "slug": "enchant-flask-increases-its-effect."
+  },
+  {
+    "mod": "Enchant a Flask with a modifier that increases its Maximum Charges. The magnitude of this effect decreases with each use",
+    "keywords": [
+      "enchant",
+      "flask"
+    ],
+    "shortName": "enchant flask increases its Maximum Charges.",
+    "category": "enchant",
+    "slug": "enchant-flask-increases-its-maximum-charges."
+  },
+  {
+    "mod": "Enchant a Flask with a modifier that grants increased Maximum Charges. The magnitude of this effect decreases with each use",
+    "keywords": [
+      "enchant",
+      "flask"
+    ],
+    "shortName": "enchant flask grants increased Maximum Charges.",
+    "category": "enchant",
+    "slug": "enchant-flask-grants-increased-maximum-charges."
+  },
+  {
+    "mod": "Enchant a Flask with a modifier that reduces its Charges used. The magnitude of this effect decreases with each use",
+    "keywords": [
+      "enchant",
+      "flask"
+    ],
+    "shortName": "enchant flask reduces its Charges used.",
+    "category": "enchant",
+    "slug": "enchant-flask-reduces-its-charges-used."
+  },
+  {
+    "mod": "Enchant a Flask with a modifier that grants reduced Charges used. The magnitude of this effect decreases with each use",
+    "keywords": [
+      "enchant",
+      "flask"
+    ],
+    "shortName": "enchant flask grants reduced Charges used.",
+    "category": "enchant",
+    "slug": "enchant-flask-grants-reduced-charges-used."
+  },
+  {
+    "mod": "Enchant a Melee Weapon. Quality does not increase its Physical Damage, has +1 Weapon Range per 10% Quality",
+    "keywords": [
+      "enchant",
+      "melee weapon"
+    ],
+    "shortName": "enchant melee weapon Weapon Range",
+    "category": "enchant",
+    "slug": "enchant-melee-weapon-weapon-range"
+  },
+  {
+    "mod": "Enchant a Weapon. Quality does not increase its Physical Damage, grants 1% increased Accuracy per 2% Quality",
+    "keywords": [
+      "enchant",
+      "weapon"
+    ],
+    "shortName": "enchant weapon Accuracy",
+    "category": "enchant",
+    "slug": "enchant-weapon-accuracy"
+  },
+  {
+    "mod": "Enchant a Weapon. Quality does not increase its Physical Damage, grants 1% increased Area of Effect per 4% Quality",
+    "keywords": [
+      "enchant",
+      "weapon"
+    ],
+    "shortName": "enchant weapon Area of Effect",
+    "category": "enchant",
+    "slug": "enchant-weapon-area-of-effect"
+  },
+  {
+    "mod": "Enchant a Weapon. Quality does not increase its Physical Damage, grants 1% increased Elemental Damage per 2% Quality",
+    "keywords": [
+      "enchant",
+      "weapon"
+    ],
+    "shortName": "enchant weapon Elemental Damage",
+    "category": "enchant",
+    "slug": "enchant-weapon-elemental-damage"
+  },
+  {
+    "mod": "Enchant a Weapon. Quality does not increase its Physical Damage, has 1% increased Attack Speed per 8% Quality",
+    "keywords": [
+      "enchant",
+      "weapon"
+    ],
+    "shortName": "enchant weapon Attack Speed",
+    "category": "enchant",
+    "slug": "enchant-weapon-attack-speed"
+  },
+  {
+    "mod": "Enchant a Weapon. Quality does not increase its Physical Damage, has 1% increased Critical Strike Chance per 4% Quality",
+    "keywords": [
+      "enchant",
+      "weapon"
+    ],
+    "shortName": "enchant weapon Critical Strike Chance",
+    "category": "enchant",
+    "slug": "enchant-weapon-critical-strike-chance"
+  },
+  {
+    "mod": "Exchange 10 Cartographer's Chisels for 10 Vaal Orbs",
+    "keywords": [
+      "exchange",
+      "cartographer's chisels"
+    ],
+    "shortName": "{Exchange} 10 {Cartographer's Chisels} for 10 Vaal Orbs",
+    "category": "special",
+    "slug": "exchange-10-cartographer's-chisels-for-10-vaal-orbs"
+  },
+  {
+    "mod": "Exchange 10 Chromatic Orbs for 20 Gemcutter's Prisms",
+    "keywords": [
+      "exchange",
+      "chromatic orbs"
+    ],
+    "shortName": "{Exchange} 10 {Chromatic Orbs} for 20 Gemcutter's Prisms",
+    "category": "special",
+    "slug": "exchange-10-chromatic-orbs-for-20-gemcutter's-prisms"
+  },
+  {
+    "mod": "Exchange 10 Orbs of Alteration for 10 Chaos Orbs",
+    "keywords": [
+      "exchange",
+      "orbs of alteration"
+    ],
+    "shortName": "{Exchange} 10 {Orbs of Alteration} for 10 Chaos Orbs",
+    "category": "special",
+    "slug": "exchange-10-orbs-of-alteration-for-10-chaos-orbs"
+  },
+  {
+    "mod": "Exchange 10 Prime Sextants for 10 Awakened Sextants",
+    "keywords": [
+      "exchange",
+      "prime sextants"
+    ],
+    "shortName": "{Exchange} 10 {Prime Sextants} for 10 Awakened Sextants",
+    "category": "special",
+    "slug": "exchange-10-prime-sextants-for-10-awakened-sextants"
+  },
+  {
+    "mod": "Exchange 10 Scrolls of Wisdom for 20 Orbs of Chance",
+    "keywords": [
+      "exchange",
+      "scrolls of wisdom"
+    ],
+    "shortName": "{Exchange} 10 {Scrolls of Wisdom} for 20 Orbs of Chance",
+    "category": "special",
+    "slug": "exchange-10-scrolls-of-wisdom-for-20-orbs-of-chance"
+  },
+  {
+    "mod": "Exchange 3 Cartographer's Chisels for 3 Vaal Orbs",
+    "keywords": [
+      "exchange",
+      "cartographer's chisels"
+    ],
+    "shortName": "{Exchange} 3 {Cartographer's Chisels} for 3 Vaal Orbs",
+    "category": "special",
+    "slug": "exchange-3-cartographer's-chisels-for-3-vaal-orbs"
+  },
+  {
+    "mod": "Exchange 3 Chaos Orbs for a Divine Orb",
+    "keywords": [
+      "exchange",
+      "chaos orbs"
+    ],
+    "shortName": "{Exchange} 3 {Chaos Orbs} for a Divine Orb",
+    "category": "special",
+    "slug": "exchange-3-chaos-orbs-for-a-divine-orb"
+  },
+  {
+    "mod": "Exchange 3 Orbs of Alchemy for 6 Cartographer's Chisels",
+    "keywords": [
+      "exchange",
+      "orbs of alchemy"
+    ],
+    "shortName": "{Exchange} 3 {Orbs of Alchemy} for 6 Cartographer's Chisels",
+    "category": "special",
+    "slug": "exchange-3-orbs-of-alchemy-for-6-cartographer's-chisels"
+  },
+  {
+    "mod": "Exchange 3 Orbs of Alteration for 3 Chaos Orbs",
+    "keywords": [
+      "exchange",
+      "orbs of alteration"
+    ],
+    "shortName": "{Exchange} 3 {Orbs of Alteration} for 3 Chaos Orbs",
+    "category": "special",
+    "slug": "exchange-3-orbs-of-alteration-for-3-chaos-orbs"
+  },
+  {
+    "mod": "Exchange 3 Orbs of Augmentation for 3 Regal Orbs",
+    "keywords": [
+      "exchange",
+      "orbs of augmentation"
+    ],
+    "shortName": "{Exchange} 3 {Orbs of Augmentation} for 3 Regal Orbs",
+    "category": "special",
+    "slug": "exchange-3-orbs-of-augmentation-for-3-regal-orbs"
+  },
+  {
+    "mod": "Exchange 3 Prime Sextants for 3 Awakened Sextants",
+    "keywords": [
+      "exchange",
+      "prime sextants"
+    ],
+    "shortName": "{Exchange} 3 {Prime Sextants} for 3 Awakened Sextants",
+    "category": "special",
+    "slug": "exchange-3-prime-sextants-for-3-awakened-sextants"
+  },
+  {
+    "mod": "Exchange 3 Simple Sextants for 3 Prime Sextants",
+    "keywords": [
+      "exchange",
+      "simple sextants"
+    ],
+    "shortName": "{Exchange} 3 {Simple Sextants} for 3 Prime Sextants",
+    "category": "special",
+    "slug": "exchange-3-simple-sextants-for-3-prime-sextants"
+  },
+  {
+    "mod": "Exchange 3 Vaal Orbs for 6 Orbs of Regret",
+    "keywords": [
+      "exchange",
+      "vaal orbs"
+    ],
+    "shortName": "{Exchange} 3 {Vaal Orbs} for 6 Orbs of Regret",
+    "category": "special",
+    "slug": "exchange-3-vaal-orbs-for-6-orbs-of-regret"
+  },
+  {
+    "mod": "Exchange a Resonator for a Fossil or vice versa. Rare outcomes are more likely with rare inputs",
+    "keywords": [
+      "exchange",
+      "resonator"
+    ],
+    "shortName": "{Exchange} a {Resonator} for a Fossil or vice versa. Rare outcomes are more likely with rare inputs",
+    "category": "special",
+    "slug": "exchange-a-resonator-for-a-fossil-or-vice-versa.-rare-outcomes-are-more-likely-with-rare-inputs"
+  },
+  {
+    "mod": "Fracture a random modifier on an item with at least 5 modifiers, locking it in place. This can't be used on Influenced, Synthesised, or Fractured items",
+    "keywords": [
+      "fracture"
+    ],
+    "shortName": "fracture 5 mods",
+    "category": "fracture",
+    "slug": "fracture-5-mods"
+  },
+  {
+    "mod": "Fracture a random Prefix on an item with at least 3 Prefixes. This can't be used on Influenced, Synthesised, or Fractured items.",
+    "keywords": [
+      "fracture",
+      "prefix"
+    ],
+    "shortName": "fracture prefix",
+    "category": "fracture",
+    "slug": "fracture-prefix"
+  },
+  {
+    "mod": "Fracture a random Suffix on an item with least 3 Suffixes. This can't be used on Influenced, Synthesised, or Fractured items",
+    "keywords": [
+      "fracture",
+      "suffix"
+    ],
+    "shortName": "fracture suffix",
+    "category": "fracture",
+    "slug": "fracture-suffix"
+  },
+  {
+    "mod": "Fracture a random Suffix on an item with at least 3 Suffixes. This can't be used on Influenced, Synthesised, or Fractured items",
+    "keywords": [
+      "fracture",
+      "suffix"
+    ],
+    "shortName": "fracture suffix",
+    "category": "fracture",
+    "slug": "fracture-suffix"
+  },
+  {
+    "mod": "Randomise the numeric values of the random Attack modifiers on a Magic or Rare item",
+    "keywords": [
+      "randomise",
+      "attack"
+    ],
+    "shortName": "randomise attack",
+    "category": "randomise",
+    "slug": "randomise-attack"
+  },
+  {
+    "mod": "Randomise the numeric values of the random Caster modifiers on a Magic or Rare item",
+    "keywords": [
+      "randomise",
+      "caster"
+    ],
+    "shortName": "randomise caster",
+    "category": "randomise",
+    "slug": "randomise-caster"
+  },
+  {
+    "mod": "Randomise the numeric values of the random Chaos modifiers on a Magic or Rare item",
+    "keywords": [
+      "randomise",
+      "chaos"
+    ],
+    "shortName": "randomise chaos",
+    "category": "randomise",
+    "slug": "randomise-chaos"
+  },
+  {
+    "mod": "Randomise the numeric values of the random Cold modifiers on a Magic or Rare item",
+    "keywords": [
+      "randomise",
+      "cold"
+    ],
+    "shortName": "randomise cold",
+    "category": "randomise",
+    "slug": "randomise-cold"
+  },
+  {
+    "mod": "Randomise the numeric values of the random Critical modifiers on a Magic or Rare item",
+    "keywords": [
+      "randomise",
+      "critical"
+    ],
+    "shortName": "randomise critical",
+    "category": "randomise",
+    "slug": "randomise-critical"
+  },
+  {
+    "mod": "Randomise the numeric values of the random Defence modifiers on a Magic or Rare item",
+    "keywords": [
+      "randomise",
+      "defence"
+    ],
+    "shortName": "randomise defence",
+    "category": "randomise",
+    "slug": "randomise-defence"
+  },
+  {
+    "mod": "Randomise the numeric values of the random Fire modifiers on a Magic or Rare item",
+    "keywords": [
+      "randomise",
+      "fire"
+    ],
+    "shortName": "randomise fire",
+    "category": "randomise",
+    "slug": "randomise-fire"
+  },
+  {
+    "mod": "Randomise the numeric values of the random Life modifiers on a Magic or Rare item",
+    "keywords": [
+      "randomise",
+      "life"
+    ],
+    "shortName": "randomise life",
+    "category": "randomise",
+    "slug": "randomise-life"
+  },
+  {
+    "mod": "Randomise the numeric values of the random Lightning modifiers on a Magic or Rare item",
+    "keywords": [
+      "randomise",
+      "lightning"
+    ],
+    "shortName": "randomise lightning",
+    "category": "randomise",
+    "slug": "randomise-lightning"
+  },
+  {
+    "mod": "Randomise the numeric values of the random Physical modifiers on a Magic or Rare item",
+    "keywords": [
+      "randomise",
+      "physical"
+    ],
+    "shortName": "randomise physical",
+    "category": "randomise",
+    "slug": "randomise-physical"
+  },
+  {
+    "mod": "Randomise the numeric values of the random Speed modifiers on a Magic or Rare item",
+    "keywords": [
+      "randomise",
+      "speed"
+    ],
+    "shortName": "randomise speed",
+    "category": "randomise",
+    "slug": "randomise-speed"
+  },
+  {
+    "mod": "Reforge a Rare item with Lucky modifier values, keeping all Prefixes",
+    "keywords": [
+      "reforge",
+      "prefixes",
+      "lucky"
+    ],
+    "shortName": "{Reforge} a Rare item with Lucky modifier values, keeping all {Prefixes}",
+    "category": "reforge-special",
+    "slug": "reforge-a-rare-item-with-lucky-modifier-values-keeping-all-prefixes"
+  },
+  {
+    "mod": "Reforge a Rare item with Lucky modifier values, keeping all Suffixes",
+    "keywords": [
+      "reforge",
+      "suffixes",
+      "lucky"
+    ],
+    "shortName": "{Reforge} a Rare item with Lucky modifier values, keeping all {Suffixes}",
+    "category": "reforge-special",
+    "slug": "reforge-a-rare-item-with-lucky-modifier-values-keeping-all-suffixes"
+  },
+  {
+    "mod": "Reforge a Rare item with new random modifiers, including an Influence modifier. Influence modifiers are more common",
+    "keywords": [
+      "reforge",
+      "influence",
+      "influence"
+    ],
+    "shortName": "reforge influence",
+    "category": "reforge",
+    "slug": "reforge-influence"
+  },
+  {
+    "mod": "Reforge a Rare item with new random modifiers 10 times, using the outcome with the highest average modifier level",
+    "keywords": [
+      "reforge",
+      "random modifiers"
+    ],
+    "shortName": "{Reforge} a Rare item with new {random modifiers} 10 times, using the outcome with the highest average modifier level",
+    "category": "reforge-special",
+    "slug": "reforge-a-rare-item-with-new-random-modifiers-10-times-using-the-outcome-with-the-highest-average-modifier-level"
+  },
+  {
+    "mod": "Reforge a Rare item, being much less likely to receive the same modifier types",
+    "keywords": [
+      "reforge",
+      "less likely"
+    ],
+    "shortName": "{Reforge} a Rare item, being much {less likely} to receive the same modifier types",
+    "category": "reforge-special",
+    "slug": "reforge-a-rare-item-being-much-less-likely-to-receive-the-same-modifier-types"
+  },
+  {
+    "mod": "Reforge a Rare item, being much more likely to receive the same modifier types",
+    "keywords": [
+      "reforge",
+      "more likely"
+    ],
+    "shortName": "{Reforge} a Rare item, being much {more likely} to receive the same modifier types",
+    "category": "reforge-special",
+    "slug": "reforge-a-rare-item-being-much-more-likely-to-receive-the-same-modifier-types"
+  },
+  {
+    "mod": "Reforge a Rare item, keeping all Prefixes",
+    "keywords": [
+      "reforge",
+      "prefixes"
+    ],
+    "shortName": "reforge keep all prefixes",
+    "category": "reforge-special",
+    "slug": "reforge-keep-all-prefixes"
+  },
+  {
+    "mod": "Reforge a Rare item, keeping all Suffixes",
+    "keywords": [
+      "reforge",
+      "suffixes"
+    ],
+    "shortName": "reforge keep all suffixes",
+    "category": "reforge-special",
+    "slug": "reforge-keep-all-suffixes"
+  },
+  {
+    "mod": "Reforge a rare item with new random modifiers, including a Defence modifier. Defence modifiers are more common",
+    "keywords": [
+      "reforge",
+      "defence",
+      "defence"
+    ],
+    "shortName": "reforge defence",
+    "category": "reforge",
+    "slug": "reforge-defence"
+  },
+  {
+    "mod": "Reforge a Normal or Magic item as a Rare item with random modifiers, including a Caster modifier",
+    "keywords": [
+      "reforge",
+      "normal",
+      "magic",
+      "caster"
+    ],
+    "shortName": "reforge caster",
+    "category": "reforge",
+    "slug": "reforge-caster"
+  },
+  {
+    "mod": "Reforge a Normal or Magic item as a Rare item with random modifiers, including a Chaos modifier",
+    "keywords": [
+      "reforge",
+      "normal",
+      "magic",
+      "chaos"
+    ],
+    "shortName": "reforge chaos",
+    "category": "reforge",
+    "slug": "reforge-chaos"
+  },
+  {
+    "mod": "Reforge a Normal or Magic item as a Rare item with random modifiers, including a Critical modifier",
+    "keywords": [
+      "reforge",
+      "normal",
+      "magic",
+      "critical"
+    ],
+    "shortName": "reforge critical",
+    "category": "reforge",
+    "slug": "reforge-critical"
+  },
+  {
+    "mod": "Reforge a Normal or Magic item as a Rare item with random modifiers, including a Speed modifier",
+    "keywords": [
+      "reforge",
+      "normal",
+      "magic",
+      "speed"
+    ],
+    "shortName": "reforge speed",
+    "category": "reforge",
+    "slug": "reforge-speed"
+  },
+  {
+    "mod": "Reforge a Rare item with new random modifiers, including a Caster modifier",
+    "keywords": [
+      "reforge",
+      "rare",
+      "caster"
+    ],
+    "shortName": "reforge caster",
+    "category": "reforge",
+    "slug": "reforge-caster"
+  },
+  {
+    "mod": "Reforge a Rare item with new random modifiers, including a Chaos modifier",
+    "keywords": [
+      "reforge",
+      "rare",
+      "chaos"
+    ],
+    "shortName": "reforge chaos",
+    "category": "reforge",
+    "slug": "reforge-chaos"
+  },
+  {
+    "mod": "Reforge a Rare item with new random modifiers, including a Chaos modifier. Chaos modifiers are more common",
+    "keywords": [
+      "reforge",
+      "rare",
+      "chaos",
+      "chaos"
+    ],
+    "shortName": "reforge chaos",
+    "category": "reforge",
+    "slug": "reforge-chaos"
+  },
+  {
+    "mod": "Reforge a Rare item with new random modifiers, including a Cold modifier",
+    "keywords": [
+      "reforge",
+      "rare",
+      "cold"
+    ],
+    "shortName": "reforge cold",
+    "category": "reforge",
+    "slug": "reforge-cold"
+  },
+  {
+    "mod": "Reforge a Rare item with new random modifiers, including a Critical modifier",
+    "keywords": [
+      "reforge",
+      "rare",
+      "critical"
+    ],
+    "shortName": "reforge critical",
+    "category": "reforge",
+    "slug": "reforge-critical"
+  },
+  {
+    "mod": "Reforge a Rare item with new random modifiers, including a Critical modifier. Critical modifiers are more common",
+    "keywords": [
+      "reforge",
+      "rare",
+      "critical",
+      "critical"
+    ],
+    "shortName": "reforge critical",
+    "category": "reforge",
+    "slug": "reforge-critical"
+  },
+  {
+    "mod": "Reforge a Rare item with new random modifiers, including a Defence modifier",
+    "keywords": [
+      "reforge",
+      "rare",
+      "defence"
+    ],
+    "shortName": "reforge defence",
+    "category": "reforge",
+    "slug": "reforge-defence"
+  },
+  {
+    "mod": "Reforge a Rare item with new random modifiers, including a Fire modifier",
+    "keywords": [
+      "reforge",
+      "rare",
+      "fire"
+    ],
+    "shortName": "reforge fire",
+    "category": "reforge",
+    "slug": "reforge-fire"
+  },
+  {
+    "mod": "Reforge a Rare item with new random modifiers, including a Fire modifier. Fire modifiers are more common",
+    "keywords": [
+      "reforge",
+      "rare",
+      "fire",
+      "fire"
+    ],
+    "shortName": "reforge fire",
+    "category": "reforge",
+    "slug": "reforge-fire"
+  },
+  {
+    "mod": "Reforge a Rare item with new random modifiers, including a Life modifier",
+    "keywords": [
+      "reforge",
+      "rare",
+      "life"
+    ],
+    "shortName": "reforge life",
+    "category": "reforge",
+    "slug": "reforge-life"
+  },
+  {
+    "mod": "Reforge a Rare item with new random modifiers, including a Life modifier. Life modifiers are more common",
+    "keywords": [
+      "reforge",
+      "rare",
+      "life",
+      "life"
+    ],
+    "shortName": "reforge life",
+    "category": "reforge",
+    "slug": "reforge-life"
+  },
+  {
+    "mod": "Reforge a Rare item with new random modifiers, including a Lightning modifier",
+    "keywords": [
+      "reforge",
+      "rare",
+      "lightning"
+    ],
+    "shortName": "reforge lightning",
+    "category": "reforge",
+    "slug": "reforge-lightning"
+  },
+  {
+    "mod": "Reforge a Rare item with new random modifiers, including a Lightning modifier. Lightning modifiers are more common",
+    "keywords": [
+      "reforge",
+      "rare",
+      "lightning",
+      "lightning"
+    ],
+    "shortName": "reforge lightning",
+    "category": "reforge",
+    "slug": "reforge-lightning"
+  },
+  {
+    "mod": "Reforge a Rare item with new random modifiers, including a Physical modifier",
+    "keywords": [
+      "reforge",
+      "rare",
+      "physical"
+    ],
+    "shortName": "reforge physical",
+    "category": "reforge",
+    "slug": "reforge-physical"
+  },
+  {
+    "mod": "Reforge a Rare item with new random modifiers, including a Physical modifier. Physical modifiers are more common",
+    "keywords": [
+      "reforge",
+      "rare",
+      "physical",
+      "physical"
+    ],
+    "shortName": "reforge physical",
+    "category": "reforge",
+    "slug": "reforge-physical"
+  },
+  {
+    "mod": "Reforge a Rare item with new random modifiers, including a Speed modifier",
+    "keywords": [
+      "reforge",
+      "rare",
+      "speed"
+    ],
+    "shortName": "reforge speed",
+    "category": "reforge",
+    "slug": "reforge-speed"
+  },
+  {
+    "mod": "Reforge a Rare item with new random modifiers, including a Speed modifier. Speed modifiers are more common",
+    "keywords": [
+      "reforge",
+      "rare",
+      "speed",
+      "speed"
+    ],
+    "shortName": "reforge speed",
+    "category": "reforge",
+    "slug": "reforge-speed"
+  },
+  {
+    "mod": "Reforge a Rare item with new random modifiers, including an Attack modifier",
+    "keywords": [
+      "reforge",
+      "rare",
+      "attack"
+    ],
+    "shortName": "reforge attack",
+    "category": "reforge",
+    "slug": "reforge-attack"
+  },
+  {
+    "mod": "Reforge a Rare item with new random modifiers, including an Attack modifier. Attack modifiers are more common",
+    "keywords": [
+      "reforge",
+      "rare",
+      "attack",
+      "attack"
+    ],
+    "shortName": "reforge attack",
+    "category": "reforge",
+    "slug": "reforge-attack"
+  },
+  {
+    "mod": "Reforge the colour of a random socket on an item, turning it White",
+    "keywords": [
+      "reforge",
+      "socket",
+      "white"
+    ],
+    "shortName": "{Reforge} the colour of a random {socket} on an item, turning it {White}",
+    "category": "reforge-special",
+    "slug": "reforge-the-colour-of-a-random-socket-on-an-item-turning-it-white"
+  },
+  {
+    "mod": "Reforge the colour of a non-Blue socket on an item, turning it Blue",
+    "keywords": [
+      "reforge",
+      "non-blue",
+      "blue"
+    ],
+    "shortName": "{Reforge} the colour of a {non-Blue} socket on an item, turning it {Blue}",
+    "category": "reforge-special",
+    "slug": "reforge-the-colour-of-a-non-blue-socket-on-an-item-turning-it-blue"
+  },
+  {
+    "mod": "Reforge the colour of a non-Green socket on an item, turning it Green",
+    "keywords": [
+      "reforge",
+      "non-green",
+      "green"
+    ],
+    "shortName": "{Reforge} the colour of a {non-Green} socket on an item, turning it {Green}",
+    "category": "reforge-special",
+    "slug": "reforge-the-colour-of-a-non-green-socket-on-an-item-turning-it-green"
+  },
+  {
+    "mod": "Reforge the colour of a non-Red socket on an item, turning it Red",
+    "keywords": [
+      "reforge",
+      "non-red",
+      "red"
+    ],
+    "shortName": "{Reforge} the colour of a {non-Red} socket on an item, turning it {Red}",
+    "category": "reforge-special",
+    "slug": "reforge-the-colour-of-a-non-red-socket-on-an-item-turning-it-red"
+  },
+  {
+    "mod": "Reforge the colour of three random sockets on an item, turning them Red, Green and Blue",
+    "keywords": [
+      "reforge",
+      "three random",
+      "red, green and blue"
+    ],
+    "shortName": "{Reforge} the colour of {three random} sockets on an item, turning them {Red, Green and Blue}",
+    "category": "reforge-special",
+    "slug": "reforge-the-colour-of-three-random-sockets-on-an-item-turning-them-red-green-and-blue"
+  },
+  {
+    "mod": "Reforge the colour of two random sockets on an item, turning them Blue and Green",
+    "keywords": [
+      "reforge",
+      "two random",
+      "blue and green"
+    ],
+    "shortName": "{Reforge} the colour of {two random} sockets on an item, turning them {Blue and Green}",
+    "category": "reforge-special",
+    "slug": "reforge-the-colour-of-two-random-sockets-on-an-item-turning-them-blue-and-green"
+  },
+  {
+    "mod": "Reforge the colour of two random sockets on an item, turning them Red and Blue",
+    "keywords": [
+      "reforge",
+      "two random",
+      "red and blue"
+    ],
+    "shortName": "{Reforge} the colour of {two random} sockets on an item, turning them {Red and Blue}",
+    "category": "reforge-special",
+    "slug": "reforge-the-colour-of-two-random-sockets-on-an-item-turning-them-red-and-blue"
+  },
+  {
+    "mod": "Reforge the colour of two random sockets on an item, turning them Red and Green",
+    "keywords": [
+      "reforge",
+      "two random",
+      "red and green"
+    ],
+    "shortName": "{Reforge} the colour of {two random} sockets on an item, turning them {Red and Green}",
+    "category": "reforge-special",
+    "slug": "reforge-the-colour-of-two-random-sockets-on-an-item-turning-them-red-and-green"
+  },
+  {
+    "mod": "Reforge the links between sockets on an item, linking five sockets",
+    "keywords": [
+      "reforge",
+      "five sockets"
+    ],
+    "shortName": "{Reforge} the links between sockets on an item, linking {five sockets}",
+    "category": "reforge-special",
+    "slug": "reforge-the-links-between-sockets-on-an-item-linking-five-sockets"
+  },
+  {
+    "mod": "Reforge the links between sockets on an item, linking six sockets",
+    "keywords": [
+      "reforge",
+      "six sockets"
+    ],
+    "shortName": "{Reforge} the links between sockets on an item, linking {six sockets}",
+    "category": "reforge-special",
+    "slug": "reforge-the-links-between-sockets-on-an-item-linking-six-sockets"
+  },
+  {
+    "mod": "Reforge the colours of sockets on an item 10 times, using the outcome with the greatest number of less-common socket colours",
+    "keywords": [
+      "reforge",
+      "colours of sockets"
+    ],
+    "shortName": "{Reforge} the {colours of sockets} on an item 10 times, using the outcome with the greatest number of less-common socket colours",
+    "category": "reforge-special",
+    "slug": "reforge-the-colours-of-sockets-on-an-item-10-times-using-the-outcome-with-the-greatest-number-of-less-common-socket-colours"
+  },
+  {
+    "mod": "Reforge the links between sockets on an item 10 times, using the outcome with the greatest number of linked sockets",
+    "keywords": [
+      "reforge",
+      "links between sockets"
+    ],
+    "shortName": "{Reforge} the {links between sockets} on an item 10 times, using the outcome with the greatest number of linked sockets",
+    "category": "reforge-special",
+    "slug": "reforge-the-links-between-sockets-on-an-item-10-times-using-the-outcome-with-the-greatest-number-of-linked-sockets"
+  },
+  {
+    "mod": "Reforge the number of sockets on an item 10 times, using the outcome with the greatest number of sockets",
+    "keywords": [
+      "reforge",
+      "number of sockets"
+    ],
+    "shortName": "{Reforge} the {number of sockets} on an item 10 times, using the outcome with the greatest number of sockets",
+    "category": "reforge-special",
+    "slug": "reforge-the-number-of-sockets-on-an-item-10-times-using-the-outcome-with-the-greatest-number-of-sockets"
+  },
+  {
+    "mod": "Remove a random Attack modifier from an item",
+    "keywords": [
+      "remove",
+      "attack"
+    ],
+    "shortName": "remove attack",
+    "category": "remove",
+    "slug": "remove-attack"
+  },
+  {
+    "mod": "Remove a random Attack modifier from an item and add a new Attack modifier",
+    "keywords": [
+      "remove",
+      "attack",
+      "add",
+      "attack"
+    ],
+    "shortName": "remove attack add attack",
+    "category": "remove-add",
+    "slug": "remove-attack-add-attack"
+  },
+  {
+    "mod": "Remove a random Caster modifier from an item",
+    "keywords": [
+      "remove",
+      "caster"
+    ],
+    "shortName": "remove caster",
+    "category": "remove",
+    "slug": "remove-caster"
+  },
+  {
+    "mod": "Remove a random Caster modifier from an item and add a new Caster modifier",
+    "keywords": [
+      "remove",
+      "caster",
+      "add",
+      "caster"
+    ],
+    "shortName": "remove caster add caster",
+    "category": "remove-add",
+    "slug": "remove-caster-add-caster"
+  },
+  {
+    "mod": "Remove a random Chaos modifier from an item",
+    "keywords": [
+      "remove",
+      "chaos"
+    ],
+    "shortName": "remove chaos",
+    "category": "remove",
+    "slug": "remove-chaos"
+  },
+  {
+    "mod": "Remove a random Chaos modifier from an item and add a new Chaos modifier",
+    "keywords": [
+      "remove",
+      "chaos",
+      "add",
+      "chaos"
+    ],
+    "shortName": "remove chaos add chaos",
+    "category": "remove-add",
+    "slug": "remove-chaos-add-chaos"
+  },
+  {
+    "mod": "Remove a random Cold modifier from an item",
+    "keywords": [
+      "remove",
+      "cold"
+    ],
+    "shortName": "remove cold",
+    "category": "remove",
+    "slug": "remove-cold"
+  },
+  {
+    "mod": "Remove a random Cold modifier from an item and add a new Cold modifier",
+    "keywords": [
+      "remove",
+      "cold",
+      "add",
+      "cold"
+    ],
+    "shortName": "remove cold add cold",
+    "category": "remove-add",
+    "slug": "remove-cold-add-cold"
+  },
+  {
+    "mod": "Remove a random Critical modifier from an item",
+    "keywords": [
+      "remove",
+      "critical"
+    ],
+    "shortName": "remove critical",
+    "category": "remove",
+    "slug": "remove-critical"
+  },
+  {
+    "mod": "Remove a random Critical modifier from an item and add a new Critical modifier",
+    "keywords": [
+      "remove",
+      "critical",
+      "add",
+      "critical"
+    ],
+    "shortName": "remove critical add critical",
+    "category": "remove-add",
+    "slug": "remove-critical-add-critical"
+  },
+  {
+    "mod": "Remove a random Defence modifier from an item",
+    "keywords": [
+      "remove",
+      "defence"
+    ],
+    "shortName": "remove defence",
+    "category": "remove",
+    "slug": "remove-defence"
+  },
+  {
+    "mod": "Remove a random Defence modifier from an item and add a new Defence modifier",
+    "keywords": [
+      "remove",
+      "defence",
+      "add",
+      "defence"
+    ],
+    "shortName": "remove defence add defence",
+    "category": "remove-add",
+    "slug": "remove-defence-add-defence"
+  },
+  {
+    "mod": "Remove a random Fire modifier from an item",
+    "keywords": [
+      "remove",
+      "fire"
+    ],
+    "shortName": "remove fire",
+    "category": "remove",
+    "slug": "remove-fire"
+  },
+  {
+    "mod": "Remove a random Fire modifier from an item and add a new Fire modifier",
+    "keywords": [
+      "remove",
+      "fire",
+      "add",
+      "fire"
+    ],
+    "shortName": "remove fire add fire",
+    "category": "remove-add",
+    "slug": "remove-fire-add-fire"
+  },
+  {
+    "mod": "Remove a random Influence modifier from an item",
+    "keywords": [
+      "remove",
+      "influence"
+    ],
+    "shortName": "remove influence",
+    "category": "remove",
+    "slug": "remove-influence"
+  },
+  {
+    "mod": "Remove a random Influence modifier from an item and add a new Influence modifier",
+    "keywords": [
+      "remove",
+      "influence",
+      "add",
+      "influence"
+    ],
+    "shortName": "remove influence add influence",
+    "category": "remove-add",
+    "slug": "remove-influence-add-influence"
+  },
+  {
+    "mod": "Remove a random Life modifier from an item",
+    "keywords": [
+      "remove",
+      "life"
+    ],
+    "shortName": "remove life",
+    "category": "remove",
+    "slug": "remove-life"
+  },
+  {
+    "mod": "Remove a random Life modifier from an item and add a new Life modifier",
+    "keywords": [
+      "remove",
+      "life",
+      "add",
+      "life"
+    ],
+    "shortName": "remove life add life",
+    "category": "remove-add",
+    "slug": "remove-life-add-life"
+  },
+  {
+    "mod": "Remove a random Lightning modifier from an item",
+    "keywords": [
+      "remove",
+      "lightning"
+    ],
+    "shortName": "remove lightning",
+    "category": "remove",
+    "slug": "remove-lightning"
+  },
+  {
+    "mod": "Remove a random Lightning modifier from an item and add a new Lightning modifier",
+    "keywords": [
+      "remove",
+      "lightning",
+      "add",
+      "lightning"
+    ],
+    "shortName": "remove lightning add lightning",
+    "category": "remove-add",
+    "slug": "remove-lightning-add-lightning"
+  },
+  {
+    "mod": "Remove a random Physical modifier from an item",
+    "keywords": [
+      "remove",
+      "physical"
+    ],
+    "shortName": "remove physical",
+    "category": "remove",
+    "slug": "remove-physical"
+  },
+  {
+    "mod": "Remove a random Physical modifier from an item and add a new Physical modifier",
+    "keywords": [
+      "remove",
+      "physical",
+      "add",
+      "physical"
+    ],
+    "shortName": "remove physical add physical",
+    "category": "remove-add",
+    "slug": "remove-physical-add-physical"
+  },
+  {
+    "mod": "Remove a random Speed modifier from an item",
+    "keywords": [
+      "remove",
+      "speed"
+    ],
+    "shortName": "remove speed",
+    "category": "remove",
+    "slug": "remove-speed"
+  },
+  {
+    "mod": "Remove a random Speed modifier from an item and add a new Speed modifier",
+    "keywords": [
+      "remove",
+      "speed",
+      "add",
+      "speed"
+    ],
+    "shortName": "remove speed add speed",
+    "category": "remove-add",
+    "slug": "remove-speed-add-speed"
+  },
+  {
+    "mod": "Remove a random non-Attack modifier from an item and add a new Attack modifier",
+    "keywords": [
+      "remove",
+      "non-attack",
+      "add",
+      "attack"
+    ],
+    "shortName": "remove non-attack add attack",
+    "category": "remove-non",
+    "slug": "remove-non-attack-add-attack"
+  },
+  {
+    "mod": "Remove a random non-Caster modifier from an item and add a new Caster modifier",
+    "keywords": [
+      "remove",
+      "non-caster",
+      "add",
+      "caster"
+    ],
+    "shortName": "remove non-caster add caster",
+    "category": "remove-non",
+    "slug": "remove-non-caster-add-caster"
+  },
+  {
+    "mod": "Remove a random non-Chaos modifier from an item and add a new Chaos modifier",
+    "keywords": [
+      "remove",
+      "non-chaos",
+      "add",
+      "chaos"
+    ],
+    "shortName": "remove non-chaos add chaos",
+    "category": "remove-non",
+    "slug": "remove-non-chaos-add-chaos"
+  },
+  {
+    "mod": "Remove a random non-Cold modifier from an item and add a new Cold modifier",
+    "keywords": [
+      "remove",
+      "non-cold",
+      "add",
+      "cold"
+    ],
+    "shortName": "remove non-cold add cold",
+    "category": "remove-non",
+    "slug": "remove-non-cold-add-cold"
+  },
+  {
+    "mod": "Remove a random non-Critical modifier from an item and add a new Critical modifier",
+    "keywords": [
+      "remove",
+      "non-critical",
+      "add",
+      "critical"
+    ],
+    "shortName": "remove non-critical add critical",
+    "category": "remove-non",
+    "slug": "remove-non-critical-add-critical"
+  },
+  {
+    "mod": "Remove a random non-Defence modifier from an item and add a new Defence modifier",
+    "keywords": [
+      "remove",
+      "non-defence",
+      "add",
+      "defence"
+    ],
+    "shortName": "remove non-defence add defence",
+    "category": "remove-non",
+    "slug": "remove-non-defence-add-defence"
+  },
+  {
+    "mod": "Remove a random non-Fire modifier from an item and add a new Fire modifier",
+    "keywords": [
+      "remove",
+      "non-fire",
+      "add",
+      "fire"
+    ],
+    "shortName": "remove non-fire add fire",
+    "category": "remove-non",
+    "slug": "remove-non-fire-add-fire"
+  },
+  {
+    "mod": "Remove a random non-Influence modifier from an item and add a new Influence modifier",
+    "keywords": [
+      "remove",
+      "non-influence",
+      "add",
+      "influence"
+    ],
+    "shortName": "remove non-influence add influence",
+    "category": "remove-non",
+    "slug": "remove-non-influence-add-influence"
+  },
+  {
+    "mod": "Remove a random non-Life modifier from an item and add a new Life modifier",
+    "keywords": [
+      "remove",
+      "non-life",
+      "add",
+      "life"
+    ],
+    "shortName": "remove non-life add life",
+    "category": "remove-non",
+    "slug": "remove-non-life-add-life"
+  },
+  {
+    "mod": "Remove a random non-Lightning modifier from an item and add a new Lightning modifier",
+    "keywords": [
+      "remove",
+      "non-lightning",
+      "add",
+      "lightning"
+    ],
+    "shortName": "remove non-lightning add lightning",
+    "category": "remove-non",
+    "slug": "remove-non-lightning-add-lightning"
+  },
+  {
+    "mod": "Remove a random non-Physical modifier from an item and add a new Physical modifier",
+    "keywords": [
+      "remove",
+      "non-physical",
+      "add",
+      "physical"
+    ],
+    "shortName": "remove non-physical add physical",
+    "category": "remove-non",
+    "slug": "remove-non-physical-add-physical"
+  },
+  {
+    "mod": "Remove a random non-Speed modifier from an item and add a new Speed modifier",
+    "keywords": [
+      "remove",
+      "non-speed",
+      "add",
+      "speed"
+    ],
+    "shortName": "remove non-speed add speed",
+    "category": "remove-non",
+    "slug": "remove-non-speed-add-speed"
+  },
+  {
+    "mod": "Reroll the values of Prefix, Suffix and Implicit modifiers on a Rare item, with Lucky modifier values",
+    "keywords": [
+      "reroll",
+      "lucky"
+    ],
+    "shortName": "reroll lucky",
+    "category": "special",
+    "slug": "reroll-lucky"
+  },
+  {
+    "mod": "Reroll the values of Prefix modifiers on a Magic or Rare item, with Lucky modifier values",
+    "keywords": [
+      "reroll",
+      "prefix",
+      "lucky"
+    ],
+    "shortName": "reroll prefix lucky",
+    "category": "special",
+    "slug": "reroll-prefix-lucky"
+  },
+  {
+    "mod": "Reroll the values of Suffix modifiers on a Magic or Rare item, with Lucky modifier values",
+    "keywords": [
+      "reroll",
+      "suffix",
+      "lucky"
+    ],
+    "shortName": "reroll suffix lucky",
+    "category": "special",
+    "slug": "reroll-suffix-lucky"
+  },
+  {
+    "mod": "Sacrifice a stack of Divination Cards for that many different Divination Cards",
+    "keywords": [
+      "sacrifice",
+      "divination cards"
+    ],
+    "shortName": "sacrifice divination cards",
+    "category": "special",
+    "slug": "sacrifice-divination-cards"
+  },
+  {
+    "mod": "Sacrifice a Corrupted Gem to gain 20% of the gem's quality as Gemcutter's Prisms",
+    "keywords": [
+      "sacrifice",
+      "corrupted gem"
+    ],
+    "shortName": "{Sacrifice} a {Corrupted Gem} to gain 20% of the gem's quality as Gemcutter's Prisms",
+    "category": "special",
+    "slug": "sacrifice-a-corrupted-gem-to-gain-20percent-of-the-gem's-quality-as-gemcutter's-prisms"
+  },
+  {
+    "mod": "Sacrifice a Corrupted Gem to gain 20% of the gem's total experience stored as a Facetor's Lens",
+    "keywords": [
+      "sacrifice",
+      "corrupted gem"
+    ],
+    "shortName": "{Sacrifice} a {Corrupted Gem} to gain 20% of the gem's total experience stored as a Facetor's Lens",
+    "category": "special",
+    "slug": "sacrifice-a-corrupted-gem-to-gain-20percent-of-the-gem's-total-experience-stored-as-a-facetor's-lens"
+  },
+  {
+    "mod": "Sacrifice a Corrupted Gem to gain 30% of the gem's quality as Gemcutter's Prisms",
+    "keywords": [
+      "sacrifice",
+      "corrupted gem"
+    ],
+    "shortName": "{Sacrifice} a {Corrupted Gem} to gain 30% of the gem's quality as Gemcutter's Prisms",
+    "category": "special",
+    "slug": "sacrifice-a-corrupted-gem-to-gain-30percent-of-the-gem's-quality-as-gemcutter's-prisms"
+  },
+  {
+    "mod": "Sacrifice a Corrupted Gem to gain 30% of the gem's total experience stored as a Facetor's Lens",
+    "keywords": [
+      "sacrifice",
+      "corrupted gem"
+    ],
+    "shortName": "{Sacrifice} a {Corrupted Gem} to gain 30% of the gem's total experience stored as a Facetor's Lens",
+    "category": "special",
+    "slug": "sacrifice-a-corrupted-gem-to-gain-30percent-of-the-gem's-total-experience-stored-as-a-facetor's-lens"
+  },
+  {
+    "mod": "Sacrifice a Corrupted Gem to gain 40% of the gem's quality as Gemcutter's Prisms",
+    "keywords": [
+      "sacrifice",
+      "corrupted gem"
+    ],
+    "shortName": "{Sacrifice} a {Corrupted Gem} to gain 40% of the gem's quality as Gemcutter's Prisms",
+    "category": "special",
+    "slug": "sacrifice-a-corrupted-gem-to-gain-40percent-of-the-gem's-quality-as-gemcutter's-prisms"
+  },
+  {
+    "mod": "Sacrifice a Corrupted Gem to gain 40% of the gem's total experience stored as a Facetor's Lens",
+    "keywords": [
+      "sacrifice",
+      "corrupted gem"
+    ],
+    "shortName": "{Sacrifice} a {Corrupted Gem} to gain 40% of the gem's total experience stored as a Facetor's Lens",
+    "category": "special",
+    "slug": "sacrifice-a-corrupted-gem-to-gain-40percent-of-the-gem's-total-experience-stored-as-a-facetor's-lens"
+  },
+  {
+    "mod": "Sacrifice a Corrupted Gem to gain 50% of the gem's quality as Gemcutter's Prisms",
+    "keywords": [
+      "sacrifice",
+      "corrupted gem"
+    ],
+    "shortName": "{Sacrifice} a {Corrupted Gem} to gain 50% of the gem's quality as Gemcutter's Prisms",
+    "category": "special",
+    "slug": "sacrifice-a-corrupted-gem-to-gain-50percent-of-the-gem's-quality-as-gemcutter's-prisms"
+  },
+  {
+    "mod": "Sacrifice a Corrupted Gem to gain 50% of the gem's total experience stored as a Facetor's Lens",
+    "keywords": [
+      "sacrifice",
+      "corrupted gem"
+    ],
+    "shortName": "{Sacrifice} a {Corrupted Gem} to gain 50% of the gem's total experience stored as a Facetor's Lens",
+    "category": "special",
+    "slug": "sacrifice-a-corrupted-gem-to-gain-50percent-of-the-gem's-total-experience-stored-as-a-facetor's-lens"
+  },
+  {
+    "mod": "Sacrifice a Corrupted Map. Create a new Corrupted Map of the same tier and rarity.",
+    "keywords": [
+      "sacrifice",
+      "corrupted map"
+    ],
+    "shortName": "{Sacrifice} a {Corrupted Map}. Create a new Corrupted Map of the same tier and rarity.",
+    "category": "special",
+    "slug": "sacrifice-a-corrupted-map.-create-a-new-corrupted-map-of-the-same-tier-and-rarity."
+  },
+  {
+    "mod": "Sacrifice a Map for multiple Maps one tier lower",
+    "keywords": [
+      "sacrifice",
+      "map"
+    ],
+    "shortName": "{Sacrifice} a {Map} for multiple Maps one tier lower",
+    "category": "special",
+    "slug": "sacrifice-a-map-for-multiple-maps-one-tier-lower"
+  },
+  {
+    "mod": "Sacrifice a Map to create a random Scarab based on its colour",
+    "keywords": [
+      "sacrifice",
+      "map"
+    ],
+    "shortName": "{Sacrifice} a {Map} to create a random Scarab",
+    "category": "special",
+    "slug": "sacrifice-a-map-to-create-a-random-scarab"
+  },
+  {
+    "mod": "Sacrifice a Map to create random Map currency based on its tier",
+    "keywords": [
+      "sacrifice",
+      "map"
+    ],
+    "shortName": "{Sacrifice} a {Map} to create random Map currency based on its tier",
+    "category": "special",
+    "slug": "sacrifice-a-map-to-create-random-map-currency-based-on-its-tier"
+  },
+  {
+    "mod": "Sacrifice a Map to gain 1 Atlas Mission for each Master based on its colour",
+    "keywords": [
+      "sacrifice",
+      "map"
+    ],
+    "shortName": "{Sacrifice} a {Map} to gain 1 Atlas Mission for each Master",
+    "category": "special",
+    "slug": "sacrifice-a-map-to-gain-1-atlas-mission-for-each-master"
+  },
+  {
+    "mod": "Sacrifice a Map to gain 3 Alva Atlas Missions based on its colour",
+    "keywords": [
+      "sacrifice",
+      "map"
+    ],
+    "shortName": "{Sacrifice} a {Map} to gain 3 Alva Atlas Missions",
+    "category": "special",
+    "slug": "sacrifice-a-map-to-gain-3-alva-atlas-missions"
+  },
+  {
+    "mod": "Sacrifice a Map to gain 3 Einhar Atlas Missions based on its colour",
+    "keywords": [
+      "sacrifice",
+      "map"
+    ],
+    "shortName": "{Sacrifice} a {Map} to gain 3 Einhar Atlas Missions",
+    "category": "special",
+    "slug": "sacrifice-a-map-to-gain-3-einhar-atlas-missions"
+  },
+  {
+    "mod": "Sacrifice a Map to gain 3 Jun Atlas Missions based on its colour",
+    "keywords": [
+      "sacrifice",
+      "map"
+    ],
+    "shortName": "{Sacrifice} a {Map} to gain 3 Jun Atlas Missions",
+    "category": "special",
+    "slug": "sacrifice-a-map-to-gain-3-jun-atlas-missions"
+  },
+  {
+    "mod": "Sacrifice a Map to gain 3 Niko Atlas Missions based on its colour",
+    "keywords": [
+      "sacrifice",
+      "map"
+    ],
+    "shortName": "{Sacrifice} a {Map} to gain 3 Niko Atlas Missions",
+    "category": "special",
+    "slug": "sacrifice-a-map-to-gain-3-niko-atlas-missions"
+  },
+  {
+    "mod": "Sacrifice a Map to gain 3 Zana Atlas Missions",
+    "keywords": [
+      "sacrifice",
+      "map"
+    ],
+    "shortName": "{Sacrifice} a {Map} to gain 3 Zana Atlas Missions",
+    "category": "special",
+    "slug": "sacrifice-a-map-to-gain-3-zana-atlas-missions"
+  },
+  {
+    "mod": "Sacrifice a Map to gain 3 Zana Atlas Missions based on its colour",
+    "keywords": [
+      "sacrifice",
+      "map"
+    ],
+    "shortName": "{Sacrifice} a {Map} to gain 3 Zana Atlas Missions",
+    "category": "special",
+    "slug": "sacrifice-a-map-to-gain-3-zana-atlas-missions"
+  },
+  {
+    "mod": "Sacrifice a Map. Add a free Infused Ambush craft to your Map device",
+    "keywords": [
+      "sacrifice",
+      "map"
+    ],
+    "shortName": "{Sacrifice} a {Map}. Add a free Infused Ambush",
+    "category": "special",
+    "slug": "sacrifice-a-map.-add-a-free-infused-ambush"
+  },
+  {
+    "mod": "Sacrifice a Map. Add a free Infused Anarchy craft to your Map device",
+    "keywords": [
+      "sacrifice",
+      "map"
+    ],
+    "shortName": "{Sacrifice} a {Map}. Add a free Infused Anarchy",
+    "category": "special",
+    "slug": "sacrifice-a-map.-add-a-free-infused-anarchy"
+  },
+  {
+    "mod": "Sacrifice a Map. Add a free Infused Bloodlines craft to your Map device",
+    "keywords": [
+      "sacrifice",
+      "map"
+    ],
+    "shortName": "{Sacrifice} a {Map}. Add a free Infused Bloodlines",
+    "category": "special",
+    "slug": "sacrifice-a-map.-add-a-free-infused-bloodlines"
+  },
+  {
+    "mod": "Sacrifice a Map. Add a free Infused Domination craft to your Map device",
+    "keywords": [
+      "sacrifice",
+      "map"
+    ],
+    "shortName": "{Sacrifice} a {Map}. Add a free Infused Domination",
+    "category": "special",
+    "slug": "sacrifice-a-map.-add-a-free-infused-domination"
+  },
+  {
+    "mod": "Sacrifice a Map. Add a free Infused Harbinger craft to your Map device",
+    "keywords": [
+      "sacrifice",
+      "map"
+    ],
+    "shortName": "{Sacrifice} a {Map}. Add a free Infused Harbinger",
+    "category": "special",
+    "slug": "sacrifice-a-map.-add-a-free-infused-harbinger"
+  },
+  {
+    "mod": "Sacrifice a Map. Add a free Infused Nemesis craft to your Map device",
+    "keywords": [
+      "sacrifice",
+      "map"
+    ],
+    "shortName": "{Sacrifice} a {Map}. Add a free Infused Nemesis",
+    "category": "special",
+    "slug": "sacrifice-a-map.-add-a-free-infused-nemesis"
+  },
+  {
+    "mod": "Sacrifice a Map. Add a free Infused Perandus craft to your Map device",
+    "keywords": [
+      "sacrifice",
+      "map"
+    ],
+    "shortName": "{Sacrifice} a {Map}. Add a free Infused Perandus",
+    "category": "special",
+    "slug": "sacrifice-a-map.-add-a-free-infused-perandus"
+  },
+  {
+    "mod": "Sacrifice a Map. Add a free Infused Rampage craft to your Map device",
+    "keywords": [
+      "sacrifice",
+      "map"
+    ],
+    "shortName": "{Sacrifice} a {Map}. Add a free Infused Rampage",
+    "category": "special",
+    "slug": "sacrifice-a-map.-add-a-free-infused-rampage"
+  },
+  {
+    "mod": "Sacrifice a Map. Add a free craft to your Map device",
+    "keywords": [
+      "sacrifice",
+      "map"
+    ],
+    "shortName": "{Sacrifice} a {Map}. Add a free",
+    "category": "special",
+    "slug": "sacrifice-a-map.-add-a-free"
+  },
+  {
+    "mod": "Sacrifice a Tier 14 Map or higher to create a random Shaper Guardian-occupied Map",
+    "keywords": [
+      "sacrifice",
+      "tier 14 map"
+    ],
+    "shortName": "{Sacrifice} a {Tier 14 Map} or higher to create a random Shaper Guardian-occupied Map",
+    "category": "special",
+    "slug": "sacrifice-a-tier-14-map-or-higher-to-create-a-random-shaper-guardian-occupied-map"
+  },
+  {
+    "mod": "Sacrifice a Weapon or Armour to create a Belt with similar modifiers",
+    "keywords": [
+      "sacrifice",
+      "weapon",
+      "armour",
+      "belt"
+    ],
+    "shortName": "sacrifice weapon get belt",
+    "category": "special",
+    "slug": "sacrifice-weapon-get-belt"
+  },
+  {
+    "mod": "Sacrifice a Weapon or Armour to create a Jewel with similar modifiers",
+    "keywords": [
+      "sacrifice",
+      "weapon",
+      "armour",
+      "jewel"
+    ],
+    "shortName": "sacrifice weapon get jewel",
+    "category": "special",
+    "slug": "sacrifice-weapon-get-jewel"
+  },
+  {
+    "mod": "Sacrifice a Weapon or Armour to create a Ring with similar modifiers",
+    "keywords": [
+      "sacrifice",
+      "weapon",
+      "armour",
+      "ring"
+    ],
+    "shortName": "sacrifice weapon get ring",
+    "category": "special",
+    "slug": "sacrifice-weapon-get-ring"
+  },
+  {
+    "mod": "Sacrifice a Weapon or Armour to create an Amulet with similar modifiers",
+    "keywords": [
+      "sacrifice",
+      "weapon",
+      "armour",
+      "amulet"
+    ],
+    "shortName": "sacrifice weapon get amulet",
+    "category": "special",
+    "slug": "sacrifice-weapon-get-amulet"
+  },
+  {
+    "mod": "Sacrifice a White or Yellow Map to create random Map Fragments based on its tier",
+    "keywords": [
+      "sacrifice",
+      "white",
+      "yellow map"
+    ],
+    "shortName": "{Sacrifice} a {White} or {Yellow Map} to create random Map Fragments based on its tier",
+    "category": "special",
+    "slug": "sacrifice-a-white-or-yellow-map-to-create-random-map-fragments-based-on-its-tier"
+  },
+  {
+    "mod": "Sacrifice up to half a stack of Divination Cards to receive between 0 and twice that amount of the same Card",
+    "keywords": [
+      "sacrifice",
+      "divination cards"
+    ],
+    "shortName": "sacrifice divination cards",
+    "category": "special",
+    "slug": "sacrifice-divination-cards"
+  },
+  {
+    "mod": "Split a Scarab into two Scarabs of lower rarity",
+    "keywords": [
+      "split",
+      "scarab"
+    ],
+    "shortName": "split scarab",
+    "category": "special",
+    "slug": "split-scarab"
+  },
+  {
+    "mod": "Synthesise an item, giving random Synthesised implicits. Cannot be used on Unique, Influenced, Synthesised or Fractured items",
+    "keywords": [
+      "synthesise"
+    ],
+    "shortName": "synthesise item",
+    "category": "synthesise",
+    "slug": "synthesise-item"
+  },
+  {
+    "mod": "Upgrades a Normal Item to a random rarity 10 times, using the outcome with the highest rarity",
+    "keywords": [
+      "upgrades",
+      "random rarity"
+    ],
+    "shortName": "{Upgrades} a Normal Item to a {random rarity} 10 times, using the outcome with the highest rarity",
+    "category": "special",
+    "slug": "upgrades-a-normal-item-to-a-random-rarity-10-times-using-the-outcome-with-the-highest-rarity"
+  },
+  {
+    "mod": "Upgrade a Magic item to a Rare item, adding four random modifiers",
+    "keywords": [
+      "upgrade",
+      "magic item",
+      "four"
+    ],
+    "shortName": "upgrade magic item +4 mods",
+    "category": "upgrade",
+    "slug": "upgrade-magic-item-+4-mods"
+  },
+  {
+    "mod": "Upgrade a Magic item to a Rare item, adding three random modifiers",
+    "keywords": [
+      "upgrade",
+      "magic item",
+      "three"
+    ],
+    "shortName": "upgrade magic item +3 mods",
+    "category": "upgrade",
+    "slug": "upgrade-magic-item-+3-mods"
+  },
+  {
+    "mod": "Upgrade a Magic item to a Rare item, adding three random high-tier modifiers",
+    "keywords": [
+      "upgrade",
+      "magic item",
+      "three",
+      "high-tier"
+    ],
+    "shortName": "upgrade magic item +3 mods high-tier",
+    "category": "upgrade",
+    "slug": "upgrade-magic-item-+3-mods-high-tier"
+  },
+  {
+    "mod": "Upgrade a Magic item to a Rare item, adding two random modifiers",
+    "keywords": [
+      "upgrade",
+      "magic item",
+      "two"
+    ],
+    "shortName": "upgrade magic item +2 mods",
+    "category": "upgrade",
+    "slug": "upgrade-magic-item-+2-mods"
+  },
+  {
+    "mod": "Upgrade a Magic item to a Rare item, adding two random high-tier modifiers",
+    "keywords": [
+      "upgrade",
+      "magic item",
+      "two",
+      "high-tier"
+    ],
+    "shortName": "upgrade magic item +2 mods high-tier",
+    "category": "upgrade",
+    "slug": "upgrade-magic-item-+2-mods-high-tier"
+  },
+  {
+    "mod": "Upgrade a Normal item to a Magic item, adding one random high-tier modifier",
+    "keywords": [
+      "upgrade",
+      "normal item",
+      "one",
+      "high-tier"
+    ],
+    "shortName": "upgrade normal item +1 mod high-tier",
+    "category": "upgrade",
+    "slug": "upgrade-normal-item-+1-mod-high-tier"
+  },
+  {
+    "mod": "Upgrade a Normal item to a Magic item, adding two random high-tier modifiers",
+    "keywords": [
+      "upgrade",
+      "normal item",
+      "two",
+      "high-tier"
+    ],
+    "shortName": "upgrade normal item +2 mods high-tier",
+    "category": "upgrade",
+    "slug": "upgrade-normal-item-+2-mods-high-tier"
+  },
+  {
+    "mod": "Upgrade an Engineer's Orb to an Infused Engineer's Orb",
+    "keywords": [
+      "upgrade",
+      "engineer's orb"
+    ],
+    "shortName": "upgrade engineer's orb",
+    "category": "upgrade",
+    "slug": "upgrade-engineer's-orb"
+  },
+  {
+    "mod": "Upgrade an Oil into an Oil one tier higher",
+    "keywords": [
+      "upgrade",
+      "oil"
+    ],
+    "shortName": "upgrade oil",
+    "category": "upgrade",
+    "slug": "upgrade-oil"
+  },
+  {
+    "mod": "Upgrade the tier of an Essence",
+    "keywords": [
+      "upgrade",
+      "essence"
+    ],
+    "shortName": "upgrade essence",
+    "category": "upgrade",
+    "slug": "upgrade-essence"
+  }
+]

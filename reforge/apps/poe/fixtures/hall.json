@@ -1,0 +1,60 @@
+[
+  {
+    "model": "poe.tradinghallcategory",
+    "pk": 1,
+    "fields": {
+      "title": "Generic",
+      "slug": "generic",
+      "is_active": true
+    }
+  },
+  {
+    "model": "poe.tradinghallcategory",
+    "pk": 2,
+    "fields": {
+      "title": "Bench Craft",
+      "slug": "bench-craft",
+      "is_active": true
+    }
+  },
+  {
+    "model": "poe.tradinghallcategory",
+    "pk": 3,
+    "fields": {
+      "title": "Harvest",
+      "slug": "harvest",
+      "is_active": true
+    }
+  },
+  {
+    "model": "poe.tradinghallcategory",
+    "pk": 4,
+    "fields": {
+      "title": "Boss Carry",
+      "slug": "boss-carry",
+      "is_active": true
+    }
+  },
+  {
+    "model": "poe.tradinghallservice",
+    "pk": 1,
+    "fields": {
+      "title": "Bench Craft",
+      "slug": "bench-craft",
+      "is_active": false,
+      "category": 2,
+      "tags": "[]"
+    }
+  },
+  {
+    "model": "poe.tradinghallservice",
+    "pk": 2,
+    "fields": {
+      "title": "augment caster",
+      "slug": "augment-caster",
+      "is_active": true,
+      "category": 3,
+      "tags": "[\"augment\", \"augment\", \"caster\"]"
+    }
+  }
+]
