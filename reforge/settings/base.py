@@ -169,5 +169,5 @@ REST_FRAMEWORK = {
     'PAGE_SIZE': 20,
 }
 
-POE_AUTH_CLIENT = os.getenv('POE_AUTH_CLIENT', '_')
+POE_AUTH_CLIENT = os.getenv('POE_AUTH_CLIENT', 'poereforge')
 POE_AUTH_SECRET = os.getenv('POE_AUTH_SECRET', '_')
