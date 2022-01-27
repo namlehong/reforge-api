@@ -21,5 +21,5 @@ urlpatterns = [
 
     url(r'^api/', include(('reforge.apps.authentication.urls', 'authentication'), namespace='authentication')),
     url(r'^api/', include(('reforge.apps.profiles.urls', 'profiles'), namespace='profiles')),
-    # url(r'^api/', include(('reforge.apps.poe.urls', 'poe'), namespace='poe')),
+    url(r'^api/', include(('reforge.apps.poe.urls', 'poe'), namespace='poe')),
 ]

@@ -32,6 +32,18 @@ deployments:
         env:
           - name: DJANGO_SETTINGS_MODULE
             value: reforge.settings.prod
+          - name: POE_AUTH_SECRET
+            value: ${poe_auth_secret}
+          - name: DJANGO_DB_PWD
+            valueFrom:
+              secretKeyRef:
+                name: postgresql
+                key: postgresql-password
+          - name: REDIS_PASSWORD
+            valueFrom:
+              secretKeyRef:
+                name: redis
+                key: redis-password
       service:
         ports:
         - port: 8000

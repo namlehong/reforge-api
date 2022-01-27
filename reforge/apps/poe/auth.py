@@ -6,8 +6,7 @@ client.headers = {
     'Accept-Language': 'en-US,en;q=0.5',
     'Accept-Encoding': 'gzip, deflate, sdch',
     'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-    'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) '
-                  'AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+    'User-Agent': 'OAuth reforge/1.0.0 (contact: namlehong@gmail.com) StrictMode',
 }
 
 
@@ -16,7 +15,9 @@ def auth(code):
         'code': code,
         'grant_type': 'authorization_code',
         'client_id': settings.POE_AUTH_CLIENT,
-        'client_secret': settings.POE_AUTH_SECRET
+        'client_secret': settings.POE_AUTH_SECRET,
+        'scope': 'account:profile account:characters account:stashes',
+        'redirect_uri': 'https://reforge.local.poe.dev/poe-auth'
     }
 
     return client.post('https://www.pathofexile.com/oauth/token', data=data).json()
@@ -32,6 +33,8 @@ def profile(token):
 
 def username(code):
     r = auth(code)
+
+    print(r)
 
     if r.get('error'):
         raise Exception(r.get('error_description'))

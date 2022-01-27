@@ -41,3 +41,4 @@ assets/
 # Ignore devspace.yaml file to prevent image rebuilding after config changes
 devspace.yaml
 *.yaml
+reforge/settings/local.py
