@@ -16,7 +16,13 @@ class ParserTest(TestCase):
         with open(self.get_html('harvest_craft.html'), 'r', encoding="utf8") as f:
             html = f.read()
 
-            harvest_craft = parsers.harvest_craft_poe_db_parser(html)
-            # TODO write more detail test
-            self.assertEqual(harvest_craft[0].get('description'),
-                             'Reforge a Normal, Magic or Rare item as a Rare item with random modifiers, including a Caster modifier')
+            harvest_craft = list(parsers.harvest_craft_poe_db_parser(html))
+
+            # test structure of output data
+            self.assertEqual(harvest_craft[0].get('tier'), 1)
+            self.assertEqual(harvest_craft[0].get('description'), 'Reforge a Normal, Magic or Rare item as a Rare item with random modifiers, including a Caster modifier')
+            self.assertEqual(harvest_craft[0].get('seed_name'), 'Wild Ursaling')
+            self.assertListEqual(harvest_craft[0].get('keywords'), [['Reforge', 'Caster']])
+
+            # test number of craft
+            self.assertEqual(len(harvest_craft), 242)
