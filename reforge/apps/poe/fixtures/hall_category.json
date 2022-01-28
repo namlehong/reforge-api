@@ -23,7 +23,8 @@
     "fields": {
       "title": "Harvest",
       "slug": "harvest",
-      "is_active": true
+      "is_active": true,
+      "priority": 99
     }
   },
   {
@@ -36,25 +37,30 @@
     }
   },
   {
-    "model": "poe.tradinghallservice",
-    "pk": 1,
+    "model": "poe.tradinghallcategory",
+    "pk": 5,
     "fields": {
-      "title": "Bench Craft",
-      "slug": "bench-craft",
-      "is_active": false,
-      "category": 2,
-      "tags": "[]"
+      "title": "Rotation",
+      "slug": "rotation",
+      "is_active": true
     }
   },
   {
-    "model": "poe.tradinghallservice",
-    "pk": 2,
+    "model": "poe.tradinghallcategory",
+    "pk": 6,
     "fields": {
-      "title": "augment caster",
-      "slug": "augment-caster",
-      "is_active": true,
-      "category": 3,
-      "tags": "[\"augment\", \"augment\", \"caster\"]"
+      "title": "Lab Enchant",
+      "slug": "lab-enchant",
+      "is_active": true
+    }
+  },
+  {
+    "model": "poe.tradinghallcategory",
+    "pk": 7,
+    "fields": {
+      "title": "Challenges",
+      "slug": "challenges",
+      "is_active": true
     }
   }
 ]

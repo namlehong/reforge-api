@@ -102,7 +102,7 @@ class TradingHallServiceViewSet(viewsets.ReadOnlyModelViewSet):
     serializer_class = serializers.TradingHallServiceSerializer
     pagination_class = None
 
-    @method_decorator(cache_page(60 * 1))
+    # @method_decorator(cache_page(60 * 1))
     def dispatch(self, request, *args, **kwargs):
         return super().dispatch(request, *args, **kwargs)
 
@@ -134,9 +134,9 @@ class UserServiceViewSet(viewsets.ModelViewSet):
     def get_queryset(self):
         qs = super(UserServiceViewSet, self).get_queryset()
 
-        if self.request.query_params.get('service'):
-            half_hour_ago = now() - timedelta(minutes=30)
-            qs = qs.filter(updated_at__gte=half_hour_ago)
+        # if self.request.query_params.get('service'):
+        #     half_hour_ago = now() - timedelta(minutes=30)
+        #     qs = qs.filter(updated_at__gte=half_hour_ago)
 
         return qs
 

@@ -10,6 +10,8 @@ class League(TimestampedModel):
     name = models.CharField(max_length=200)
     code = models.CharField(max_length=200)
     is_active = models.BooleanField(default=True)
+    is_default = models.BooleanField(default=False)
+    priority = models.IntegerField(default=0)
 
     class Meta:
         ordering = None
@@ -34,9 +36,10 @@ class TradingHallCategory(TimestampedModel):
     title = models.CharField(db_index=True, max_length=255)
     slug = AutoSlugField(db_index=True, populate_from='title')
     is_active = models.BooleanField(db_index=True, default=True)
+    priority = models.IntegerField(default=0)
 
     class Meta:
-        ordering = None
+        ordering = ('-priority',)
 
     def __str__(self):
         return self.title
@@ -47,7 +50,8 @@ class TradingHallService(TimestampedModel):
     slug = AutoSlugField(db_index=True, populate_from='title')
     is_active = models.BooleanField(db_index=True, default=True)
     category = models.ForeignKey(TradingHallCategory, on_delete=models.CASCADE)
-    tags = models.JSONField(default=list)
+    tags = models.JSONField(default=list, null=True, blank=True)
+    options = models.JSONField(default={}, blank=True)
 
     class Meta:
         ordering = ['category']
@@ -68,6 +72,15 @@ class TradingHallPrice(TimestampedModel):
 
 
 class UserService(TimestampedModel):
+    WTB = 'wtb'
+    WTS = 'wts'
+
+    LISTING_OPTIONS = (
+        (WTS, WTS),
+        (WTB, WTB)
+    )
+
+    listing_type = models.CharField(default=WTS, choices=LISTING_OPTIONS, max_length=20)
     user = models.ForeignKey('profiles.Profile', on_delete=models.CASCADE)
     league = models.ForeignKey(League, on_delete=models.CASCADE)
     service = models.ForeignKey(TradingHallService, on_delete=models.CASCADE)

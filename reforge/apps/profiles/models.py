@@ -12,18 +12,6 @@ class Profile(TimestampedModel):
         'authentication.User', on_delete=models.CASCADE
     )
 
-    # Each user profile will have a field where they can tell other users
-    # something about themselves. This field will be empty when the user
-    # creates their account, so we specify `blank=True`.
-    bio = models.TextField(blank=True)
-
-    # In addition to the `bio` field, each user may have a profile image or
-    # avatar. Similar to `bio`, this field is not required. It may be blank.
-    image = models.URLField(blank=True)
-
-    # extra for poe
-    session_id = models.TextField(blank=True)
-
     # poe related
     name = models.CharField(max_length=200, default='')
     realm = models.CharField(max_length=200, default='')
@@ -32,7 +20,8 @@ class Profile(TimestampedModel):
     joined = models.CharField(max_length=200, default='')
 
     poe_account = models.JSONField(default=dict, null=True)
-    last_character = models.JSONField(default=dict, null=True)
+    characters = models.JSONField(default=list, null=True)
+    # last_character = models.JSONField(default=dict, null=True)
 
     karma = models.IntegerField(default=0)
     positive_karma = models.IntegerField(default=0)

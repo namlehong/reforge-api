@@ -80,10 +80,12 @@ class User(AbstractBaseUser, PermissionsMixin, TimestampedModel):
 
     # More fields required by Django when specifying a custom user model.
 
+    poe_token = models.JSONField(default=dict)
+
     # The `USERNAME_FIELD` property tells us which field we will use to log in.
     # In this case, we want that to be the email field.
-    USERNAME_FIELD = 'email'
-    REQUIRED_FIELDS = ['username']
+    USERNAME_FIELD = 'username'
+    REQUIRED_FIELDS = []
 
     # Tells Django that the UserManager class defined above should manage
     # objects of this type.

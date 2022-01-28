@@ -21,8 +21,8 @@
     "model": "poe.league",
     "pk": 3,
     "fields": {
-      "name": "Ritual",
-      "code": "Ritual",
+      "name": "Scourge",
+      "code": "Scourge",
       "is_active": true
     }
   },
@@ -30,8 +30,8 @@
     "model": "poe.league",
     "pk": 4,
     "fields": {
-      "name": "HC Ritual",
-      "code": "Hardcore Ritual",
+      "name": "HC Scourge",
+      "code": "Hardcore Scourge",
       "is_active": true
     }
   }

@@ -5,7 +5,7 @@ from rest_framework import serializers
 from reforge.apps.profiles.serializers import ProfileSerializer
 
 from .models import User
-from reforge.apps.poe import auth, client
+from .ggg_api import GggApi
 
 
 class RegistrationSerializer(serializers.ModelSerializer):
@@ -112,16 +112,18 @@ class PoeLoginSerializer(serializers.Serializer):
         code = data.get('code', None)
 
         try:
-            username = auth.username(code)
+            api = GggApi()
+            api.get_token(code)
+            profile = api.profile()
+            username = '{uuid}@poe'.format(**profile)
 
-            user, is_created = User.objects.get_or_create(email='%s@poe.account' % username, defaults={
-                'username': username
-            })
+            user, is_created = User.objects.get_or_create(username=username)
 
-            profile = client.public_profile(username)
+            user.poe_token = api.token
+            user.save()
 
-            for k, v in profile.items():
-                setattr(user.profile, k, v)
+            user.profile.poe_account = profile
+            user.profile.characters = api.character().get('characters')
             user.profile.save()
 
         except Exception as e:

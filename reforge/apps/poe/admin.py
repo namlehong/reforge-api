@@ -21,14 +21,14 @@ make_active.short_description = "Mark selected item as active"
 
 class LeagueAdmin(admin.ModelAdmin):
     list_filter = ('is_active',)
-    list_display = ('name', 'code', 'is_active')
+    list_display = ('name', 'code', 'is_active', 'is_default', 'priority')
     search_fields = ('name',)
     actions = [make_in_active, make_active]
 
 
 class TradingHallCategoryAdmin(admin.ModelAdmin):
     list_filter = ('is_active',)
-    list_display = ('title', 'is_active')
+    list_display = ('title', 'is_active', 'priority')
     search_fields = ('title',)
     actions = [make_in_active, make_active]
 
