@@ -14,54 +14,45 @@ def harvest_craft_poe_db_parser(html):
 
     soup = BeautifulSoup(r.content, 'html.parser')
 
-    output = []
+    out = []
 
-    tbl = soup.find('table')
-    for team in tbl.find_all('tbody'):
-        rows = team.find_all('tr')
-        for seeds in rows:
-            # seed tier
-            seed_tier = seeds.find_all('td')[0].text
-            # monster names
-            monster_names = seeds.find_all('td')[1].text
-            for crafts in seeds.find_all('td')[2]:
-                # get descriptions
-                try:
-                    desc = (crafts.text)
-                    print(desc)
-                except AttributeError:
-                    skip
+    table = soup.find('table')
+    body = table.find('tbody')
+    rows = body.find_all('tr')
 
-                # get keywords and append into a list
-                keyword_list = []
-                try:
-                    mods = crafts.select('span')
-                except AttributeError:
-                    skip
-                else:
-                    for kw in mods:
-                        keyw = (kw.text)
-                        keyword_list.append(keyw)
-                    keyword_list = [i for i in keyword_list if i]
-                    try:
-                        len(keyword_list)
-                    except TypeError:
-                        continue
-                    else:
-                        if (len(keyword_list)) > 0:
+    for row in rows:
+        cols = row.find_all('td')
 
-                            craft_data = {
-                                'tier': seed_tier,
-                                'monster_name': monster_names,
-                                'description': desc,
-                                'options': keyword_list
-                            }
-                            #result = ('<"tier": {}, "monster_name": "{}", "description": "{}", "keywords": {}>,'.format(seed_tier, monster_names, desc, keyword_list))
-                            print(craft_data)
-                            output.append(craft_data)
-                            #result = result.replace('<', '{')
-                            #result = result.replace('>', '}')
-                            # print(result)
+        seed_tier = cols[0].text
+        monster_name = cols[1].text
+        crafts = cols[2]
+        # print(crafts)
 
-    with open(r"harvestjson.json", 'a') as txtFile:
-        json.dump((output), txtFile)
+        for option in crafts.select('li'):
+            options = []
+            keywords = [e.text for e in option.select('span') if e.text != ""]
+            description = option.text
+
+            options.append(keywords)
+
+            craft_data = {
+                'tier': seed_tier,
+                'monster_name': monster_name,
+                'description': description,
+                'options': options
+            }
+
+            out.append(craft_data)
+
+    return out
+
+
+# open json and read, if it doesn't contain anything, dump data in.
+"""#with open(r"harvestjson.json", 'r') as txtFile:
+    try:
+        content = json.load(txtFile)
+    except json.JSONDecodeError:
+        with open(r"harvestjson.json", 'a') as txtFile:
+            json.dump((output), txtFile)
+    else:
+        print("HarvestJson already has contents")"""
